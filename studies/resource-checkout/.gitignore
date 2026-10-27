@@ -1,0 +1,13 @@
+# Local editing and private material
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+*.tmp
+*.swp
+~$*
+.env
+.env.*
+.codex/
+private/
+work/

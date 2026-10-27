@@ -1,0 +1,850 @@
+{
+  "schema_version": 1,
+  "status": "DRAFT_SOURCE_OBSERVATIONS",
+  "source_observation_date": "2026-10-28",
+  "author_alias": "edgepillar",
+  "interpretation": "Public primary citations and bounded scope notes. This index is not a conformance report or an execution manifest.",
+  "execution_requirement": "Freeze the exact source, dependencies, binaries, chain identity, active rules and verification policy before any experiment.",
+  "sources": [
+    {
+      "id": "S01",
+      "key": "spiral",
+      "title": "Spiral report on bitcoin payments",
+      "url": "https://github.com/spiralxyz/bitcoin-payments/blob/5320295278e7ce3b5e1cb2d196def7a0fde3d729/README.md",
+      "observed_through": "2026-10-28",
+      "scope": "Pinned report; motivation and scope, not evidence that this experiment will succeed.",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "5320295278e7ce3b5e1cb2d196def7a0fde3d729",
+        "commit_sha": "5320295278e7ce3b5e1cb2d196def7a0fde3d729",
+        "status": "citation_pins_source_revision"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S02",
+      "key": "guidance",
+      "title": "Spiral contribution guidance and moonshot template",
+      "url": "https://github.com/spiralxyz/bitcoin-payments/blob/5320295278e7ce3b5e1cb2d196def7a0fde3d729/CONTRIBUTING.md",
+      "observed_through": "2026-10-28",
+      "scope": "Pinned contribution guidance. The companion short draft follows the moonshot fields.",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "5320295278e7ce3b5e1cb2d196def7a0fde3d729",
+        "commit_sha": "5320295278e7ce3b5e1cb2d196def7a0fde3d729",
+        "status": "citation_pins_source_revision"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S03",
+      "key": "template",
+      "title": "Spiral moonshot issue fields",
+      "url": "https://github.com/spiralxyz/bitcoin-payments/blob/5320295278e7ce3b5e1cb2d196def7a0fde3d729/.github/ISSUE_TEMPLATE/moonshot-idea.yml",
+      "observed_through": "2026-10-28",
+      "scope": "Pinned template used to structure the companion submission draft.",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "5320295278e7ce3b5e1cb2d196def7a0fde3d729",
+        "commit_sha": "5320295278e7ce3b5e1cb2d196def7a0fde3d729",
+        "status": "citation_pins_source_revision"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S04",
+      "key": "bot",
+      "title": "Plasma Bot implementation overview",
+      "url": "https://github.com/0x3639/plasma.bot",
+      "observed_through": "2026-10-28",
+      "scope": "Existing provisioner and agent API; source documentation, not a deployment or commercial demand audit.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S05",
+      "key": "bot_plan",
+      "title": "Plasma Bot roadmap",
+      "url": "https://github.com/0x3639/plasma.bot/blob/main/ROADMAP.md",
+      "observed_through": "2026-10-28",
+      "scope": "Current agent API; planned QSR or ZNN payments and MCP integration. BTC support is proposed here, not established.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "main",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S06",
+      "key": "fusion",
+      "title": "Fusion and cancellation implementation",
+      "url": "https://github.com/zenon-network/go-zenon/blob/v0.0.9-alphanet/vm/embedded/implementation/plasma.go",
+      "observed_through": "2026-10-28",
+      "scope": "Release tag source. Owner, beneficiary and cancellation behavior; exact deployed rules remain an acceptance gate.",
+      "reference": {
+        "kind": "tag_in_citation",
+        "value": "v0.0.9-alphanet",
+        "commit_sha": null,
+        "status": "tag_requires_object_and_binary_provenance_before_execution"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S07",
+      "key": "fusion_def",
+      "title": "Fusion entry definition",
+      "url": "https://github.com/zenon-network/go-zenon/blob/dev/vm/embedded/definition/plasma.go",
+      "observed_through": "2026-10-28",
+      "scope": "Dated dev source for entry identity and beneficiary fields; not a deployed chain profile.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "dev",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S08",
+      "key": "fusion_rpc",
+      "title": "Fusion and plasma RPC at the release tag",
+      "url": "https://github.com/zenon-network/go-zenon/blob/v0.0.9-alphanet/rpc/api/embedded/plasma.go",
+      "observed_through": "2026-10-28",
+      "scope": "Entries are listed by owner. Beneficiary plasma is an aggregate, not an order receipt.",
+      "reference": {
+        "kind": "tag_in_citation",
+        "value": "v0.0.9-alphanet",
+        "commit_sha": null,
+        "status": "tag_requires_object_and_binary_provenance_before_execution"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S09",
+      "key": "fusion_constants",
+      "title": "Fusion constants at the release tag",
+      "url": "https://github.com/zenon-network/go-zenon/blob/v0.0.9-alphanet/vm/constants/embedded.go",
+      "observed_through": "2026-10-28",
+      "scope": "Contains environment dependent values; do not infer a universal lease duration from this file alone.",
+      "reference": {
+        "kind": "tag_in_citation",
+        "value": "v0.0.9-alphanet",
+        "commit_sha": null,
+        "status": "tag_requires_object_and_binary_provenance_before_execution"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S10",
+      "key": "l402",
+      "title": "L402 protocol specification",
+      "url": "https://github.com/lightninglabs/L402/blob/master/protocol-specification.md",
+      "observed_through": "2026-10-28",
+      "scope": "Existing protocol; a separate adapter and compatibility target.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "master",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S11",
+      "key": "aperture",
+      "title": "Aperture paid API proxy",
+      "url": "https://github.com/lightninglabs/aperture",
+      "observed_through": "2026-10-28",
+      "scope": "Existing service gateway and session or metered payment work; prior art for the baseline.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S12",
+      "key": "lnbtc",
+      "title": "x402 exact lnbtc specification",
+      "url": "https://github.com/x402-foundation/x402/blob/main/specs/schemes/exact/scheme_exact_lnbtc.md",
+      "observed_through": "2026-10-28",
+      "scope": "Specification in main as reviewed on 28 October 2026; implementation coverage must be tested.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "main",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S13",
+      "key": "ldk",
+      "title": "LDK Node",
+      "url": "https://github.com/lightningdevkit/ldk-node",
+      "observed_through": "2026-10-28",
+      "scope": "Existing Lightning integration building block; deployment suitability remains an operator decision.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S14",
+      "key": "bdk",
+      "title": "Bitcoin Development Kit",
+      "url": "https://github.com/bitcoindevkit/bdk",
+      "observed_through": "2026-10-28",
+      "scope": "Existing bitcoin wallet building block; no new wallet cryptography is proposed.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S15",
+      "key": "hold",
+      "title": "LND AddHoldInvoice",
+      "url": "https://lightning.engineering/api-docs/api/lnd/invoices/add-hold-invoice/",
+      "observed_through": "2026-10-28",
+      "scope": "Existing conditional payment primitive; not a quality oracle or proof of cross chain atomicity.",
+      "reference": {
+        "kind": "documentation_url",
+        "value": null,
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S16",
+      "key": "settle",
+      "title": "LND SettleInvoice",
+      "url": "https://lightning.engineering/api-docs/api/lnd/invoices/settle-invoice/",
+      "observed_through": "2026-10-28",
+      "scope": "Settles an accepted invoice. Its semantics differ from x402 proof consumption.",
+      "reference": {
+        "kind": "documentation_url",
+        "value": null,
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S17",
+      "key": "cancel",
+      "title": "LND CancelInvoice",
+      "url": "https://lightning.engineering/api-docs/api/lnd/invoices/cancel-invoice/",
+      "observed_through": "2026-10-28",
+      "scope": "Canceling a settled invoice fails; cancellation is not a refund of a completed payment.",
+      "reference": {
+        "kind": "documentation_url",
+        "value": null,
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S18",
+      "key": "release",
+      "title": "go zenon v0.0.9 alphanet release",
+      "url": "https://github.com/zenon-network/go-zenon/releases/tag/v0.0.9-alphanet",
+      "observed_through": "2026-10-28",
+      "scope": "Release dated 10 October 2026 at bb39e31; release existence does not prove activation.",
+      "reference": {
+        "kind": "release_tag",
+        "value": "v0.0.9-alphanet",
+        "commit_sha": null,
+        "status": "release_existence_not_deployment_evidence"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S19",
+      "key": "spork",
+      "title": "Current dev spork definitions",
+      "url": "https://github.com/zenon-network/go-zenon/blob/dev/common/types/spork.go",
+      "observed_through": "2026-10-28",
+      "scope": "Reviewed on 28 October 2026. Dynamic Plasma and libp2p identifiers are placeholders in this source.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "dev",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S20",
+      "key": "dp",
+      "title": "Dynamic Plasma PR 63",
+      "url": "https://github.com/zenon-network/go-zenon/pull/63",
+      "observed_through": "2026-10-28",
+      "scope": "Merged to dev; candidate resource pricing work, not an observed mainnet activation.",
+      "reference": {
+        "kind": "pull_request",
+        "value": "63",
+        "commit_sha": null,
+        "status": "reviewed_snapshot_not_runtime_evidence"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S21",
+      "key": "renewal",
+      "title": "Community spork renewal PR 101",
+      "url": "https://github.com/zenon-network/go-zenon/pull/101",
+      "observed_through": "2026-10-28",
+      "scope": "Merged protocol change; operators and actual chain enforcement remain separate checks.",
+      "reference": {
+        "kind": "pull_request",
+        "value": "101",
+        "commit_sha": null,
+        "status": "reviewed_snapshot_not_runtime_evidence"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S22",
+      "key": "recipient",
+      "title": "Receive recipient integrity PR 182",
+      "url": "https://github.com/zenon-network/go-zenon/pull/182",
+      "observed_through": "2026-10-28",
+      "scope": "Merged 22 October 2026; scope differs between non mainnet rules and historical mainnet behavior.",
+      "reference": {
+        "kind": "pull_request",
+        "value": "182",
+        "commit_sha": null,
+        "status": "reviewed_snapshot_not_runtime_evidence"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S23",
+      "key": "reprice",
+      "title": "Pillar Update repricing PR 183",
+      "url": "https://github.com/zenon-network/go-zenon/pull/183",
+      "observed_through": "2026-10-28",
+      "scope": "Merged 20 October 2026; its replacement policy must not be copied into customer payment recovery.",
+      "reference": {
+        "kind": "pull_request",
+        "value": "183",
+        "commit_sha": null,
+        "status": "reviewed_snapshot_not_runtime_evidence"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S24",
+      "key": "ptlc",
+      "title": "PTLC contract PR 138",
+      "url": "https://github.com/zenon-network/go-zenon/pull/138",
+      "observed_through": "2026-10-28",
+      "scope": "Merged 15 October 2026 into dev. Contract activation and client swap safety are separate.",
+      "reference": {
+        "kind": "pull_request",
+        "value": "138",
+        "commit_sha": null,
+        "status": "reviewed_snapshot_not_runtime_evidence"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S25",
+      "key": "ferry",
+      "title": "Ferry implementation and security model",
+      "url": "https://github.com/sol-znn/ferry-web/blob/master/docs/SECURITY.md",
+      "observed_through": "2026-10-28",
+      "scope": "Existing HTLC client and explicit browser, deployment and recovery limitations.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "master",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S26",
+      "key": "ferry_report",
+      "title": "Ferry developer report",
+      "url": "https://forum.zenon.org/t/ferry-multi-chain-htlc-web-service/2366",
+      "observed_through": "2026-10-28",
+      "scope": "Developer reports a mainnet BTC and ZNN swap. This proposal did not independently reproduce it.",
+      "reference": {
+        "kind": "documentation_url",
+        "value": null,
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S27",
+      "key": "ptlc_tools",
+      "title": "PTLC console",
+      "url": "https://github.com/sol-znn/ptlc-console",
+      "observed_through": "2026-10-28",
+      "scope": "Demonstration tooling; simulated bitcoin transactions in the console are distinct from regtest blocks.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S28",
+      "key": "ptlc_research",
+      "title": "PTLC research",
+      "url": "https://github.com/edgepillar/ptlc-research",
+      "observed_through": "2026-10-28",
+      "scope": "Public research and recovery work; independent acceptance remains a separate gate.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S29",
+      "key": "spv",
+      "title": "Zenon SPV verification contract",
+      "url": "https://github.com/edgepillar/zenon-spv/blob/main/docs/verification-contract.md",
+      "observed_through": "2026-10-28",
+      "scope": "Bounded v1 and v2 verification and explicit trust assumptions; state values remain unsupported.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "main",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S30",
+      "key": "state_audit",
+      "title": "State commitment audit",
+      "url": "https://github.com/edgepillar/zenon-spv/blob/main/docs/state-commitment-audit.md",
+      "observed_through": "2026-10-28",
+      "scope": "Audit baseline and commitment distinctions; it is not a statement about every later fork.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "main",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S31",
+      "key": "state_root",
+      "title": "Candidate state root header",
+      "url": "https://github.com/digitalSloth/go-zenon/blob/feature/merkle-state-root/chain/nom/momentum.go",
+      "observed_through": "2026-10-28",
+      "scope": "Candidate branch containing a v3 header commitment; no acceptance or activation claim.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "feature/merkle-state-root",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S32",
+      "key": "state_prepare",
+      "title": "Candidate state tree preparation",
+      "url": "https://github.com/digitalSloth/go-zenon/blob/feature/merkle-state-root/docs/STATE_TREE_PREBUILD.md",
+      "observed_through": "2026-10-28",
+      "scope": "Operator preparation for the candidate; provenance and verifier compatibility still need qualification.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "feature/merkle-state-root",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S33",
+      "key": "x402",
+      "title": "Zenon x402 proof of concept",
+      "url": "https://github.com/edgepillar/zenon-x402-poc",
+      "observed_through": "2026-10-28",
+      "scope": "Research adapter and recovery work; not an official x402 network or production deployment.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S34",
+      "key": "x402_pending",
+      "title": "Pinned x402 native pending qualification outcome",
+      "url": "https://github.com/edgepillar/zenon-x402-poc/blob/6a0af7d6c96fe770b7c141c44894536f2a543b68/docs/P1_NATIVE_V4_PENDING_LOCAL_QUALIFICATION.md",
+      "observed_through": "2026-10-28",
+      "scope": "Immutable source revision: V4 pending trial failed an expectation; V5 correction was not executed.",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "6a0af7d6c96fe770b7c141c44894536f2a543b68",
+        "commit_sha": "6a0af7d6c96fe770b7c141c44894536f2a543b68",
+        "status": "citation_pins_source_revision"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S35",
+      "key": "wallet_release",
+      "title": "Syrius Extension v0.3.7",
+      "url": "https://github.com/sol-znn/syrius-extension/releases/tag/v0.3.7",
+      "observed_through": "2026-10-28",
+      "scope": "Release dated 22 October 2026 at bec8791; later branch work is a different artifact.",
+      "reference": {
+        "kind": "release_tag",
+        "value": "v0.3.7",
+        "commit_sha": null,
+        "status": "release_existence_not_deployment_evidence"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S36",
+      "key": "wallet",
+      "title": "Syrius Extension integration contract",
+      "url": "https://github.com/sol-znn/syrius-extension/blob/master/docs/INTEGRATION.md",
+      "observed_through": "2026-10-28",
+      "scope": "Origin permission and signing boundary; browser and mobile paths require distinct tests.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "master",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S37",
+      "key": "sdk",
+      "title": "Zenon TypeScript SDK",
+      "url": "https://github.com/digitalSloth/znn-typescript-sdk",
+      "observed_through": "2026-10-28",
+      "scope": "Client implementation; versions and active node semantics must be matched.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S38",
+      "key": "sdk_spec",
+      "title": "Zenon SDK specification",
+      "url": "https://github.com/0x3639/zenon-sdk-spec",
+      "observed_through": "2026-10-28",
+      "scope": "Language neutral specification and vectors; not proof that a new network profile is deployed.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S39",
+      "key": "zvm",
+      "title": "ZVM architecture",
+      "url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/main/ARCHITECTURE.md",
+      "observed_through": "2026-10-28",
+      "scope": "Eighteen repository devnet architecture based on NoM ordering and EVM derivation.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "main",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S40",
+      "key": "committee",
+      "title": "ZVM committee operations",
+      "url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/main/operations/COMMITTEE.md",
+      "observed_through": "2026-10-28",
+      "scope": "Threshold vault operations; collusion and availability remain material trust assumptions.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "main",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S41",
+      "key": "zvm_future",
+      "title": "ZVM future development",
+      "url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/main/planning/FUTURE.md",
+      "observed_through": "2026-10-28",
+      "scope": "Separates proposed additions such as trustless peg out from implemented behavior.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "main",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S42",
+      "key": "fleet",
+      "title": "ZVM fleet benchmark results",
+      "url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/main/benchmarks/results/FLEET-v2.md",
+      "observed_through": "2026-10-28",
+      "scope": "Developer reported devnet measurements; not mainnet capacity or an independent benchmark.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "main",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S43",
+      "key": "multisig",
+      "title": "Mutable multisig PR 72",
+      "url": "https://github.com/zenon-network/go-zenon/pull/72",
+      "observed_through": "2026-10-28",
+      "scope": "Draft protocol work as reviewed; not an active wallet capability.",
+      "reference": {
+        "kind": "pull_request",
+        "value": "72",
+        "commit_sha": null,
+        "status": "reviewed_snapshot_not_runtime_evidence"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S44",
+      "key": "governance",
+      "title": "Governance ZIP working draft",
+      "url": "https://forum.hypercore.one/t/draft-governance-zip-working-draft-for-comment/935",
+      "observed_through": "2026-10-28",
+      "scope": "Draft governance work; distinct from the merged community spork renewal.",
+      "reference": {
+        "kind": "documentation_url",
+        "value": null,
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S45",
+      "key": "nomctl",
+      "title": "nomctl operator tooling",
+      "url": "https://github.com/0x3639/nomctl",
+      "observed_through": "2026-10-28",
+      "scope": "Operational tooling; node or bridge health must still be measured in the chosen environment.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S46",
+      "key": "bridge",
+      "title": "Existing bridge frontend",
+      "url": "https://github.com/sol-znn/bridge.mainnet.zenon.community",
+      "observed_through": "2026-10-28",
+      "scope": "Existing bridge application; repository changes do not establish live bridge availability.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S47",
+      "key": "orchestrator",
+      "title": "Bridge orchestrator development",
+      "url": "https://github.com/0x3639/orchestrator",
+      "observed_through": "2026-10-28",
+      "scope": "Bridge service development; no production health or custody guarantee is inferred.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S48",
+      "key": "loupe",
+      "title": "Loupe",
+      "url": "https://github.com/zenon-network/loupe",
+      "observed_through": "2026-10-28",
+      "scope": "Wallet and payments coordination work; no partnership, deployment or user demand is assumed.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S49",
+      "key": "portal",
+      "title": "Zenon Portal research",
+      "url": "https://github.com/TminusZ/zenon-developer-commons/blob/main/docs/specs/Zenon%20Portal/Portal%20V2/zenon_portal_final.md",
+      "observed_through": "2026-10-28",
+      "scope": "Research design; the document name does not establish an implementation or independent audit.",
+      "reference": {
+        "kind": "mutable_ref_in_citation",
+        "value": "main",
+        "commit_sha": null,
+        "status": "mutable_or_unresolved"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S50",
+      "key": "core_spec",
+      "title": "Zenon core specification",
+      "url": "https://github.com/0x3639/go-zenon-spec",
+      "observed_through": "2026-10-28",
+      "scope": "Reference work with an older pinned baseline; not current core conformance certification.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S51",
+      "key": "webwallet",
+      "title": "nom webwallet",
+      "url": "https://github.com/digitalSloth/nom-webwallet",
+      "observed_through": "2026-10-28",
+      "scope": "Additional wallet surface; release, custody and integration evidence must be checked separately.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S52",
+      "key": "syrius",
+      "title": "Official Syrius wallet",
+      "url": "https://github.com/zenon-network/syrius",
+      "observed_through": "2026-10-28",
+      "scope": "Separate wallet implementation and release lineage; do not combine fork evidence.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S53",
+      "key": "wallet_fork",
+      "title": "Syrius community fork",
+      "url": "https://github.com/maznnwell/syrius",
+      "observed_through": "2026-10-28",
+      "scope": "Community wallet work; branch and release evidence remain specific to this repository.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S54",
+      "key": "redesign",
+      "title": "Syrius redesign work",
+      "url": "https://github.com/sol-znn/syrius",
+      "observed_through": "2026-10-28",
+      "scope": "Separate redesign work; a specification or branch is not a shipped release.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S55",
+      "key": "faucet",
+      "title": "Zenon faucet",
+      "url": "https://github.com/sol-znn/zenon-faucet",
+      "observed_through": "2026-10-28",
+      "scope": "Test onboarding application; not a treasury custody model.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    },
+    {
+      "id": "S56",
+      "key": "airdrop",
+      "title": "ZTS airdrop tooling",
+      "url": "https://github.com/sol-znn/zts-airdrop",
+      "observed_through": "2026-10-28",
+      "scope": "Distribution tooling; airdrop activity does not establish paid bitcoin demand.",
+      "reference": {
+        "kind": "repository",
+        "value": null,
+        "commit_sha": null,
+        "status": "default_ref_not_pinned_in_citation"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false
+    }
+  ]
+}

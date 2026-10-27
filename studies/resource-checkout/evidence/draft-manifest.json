@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "status": "DRAFT_DOCUMENT_PACKAGE",
+  "author_alias": "edgepillar",
+  "research_snapshot_date": "2026-10-28",
+  "source_count": 56,
+  "interpretation": "File integrity only. No product tests, live payments or activation evidence are established.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 33,
+      "sha256": "1f8c318361d861156b839e417ce721148a002443073ab6cd60303aac7b9d7873"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 123,
+      "sha256": "edd198430c6909ee75346625090f4e0b653b5e9a0a651cb55fc114b2c32f774c"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1496,
+      "sha256": "5c0e52f189814376db27b38f3f75575190866c037abb052bef58d21f6b24e50b"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1349,
+      "sha256": "d4811dd63e2f40b39dddcad08784f6c261a3d24cc5cc42dc04b7406d95226456"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 631,
+      "sha256": "52b640ed1e650baa9ca744f483a3c39de51b01958f7d9f9123d8eb577f2aa4ca"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4600,
+      "sha256": "cb406e2b0c7c82d8a29e0d2ffabbc08fe6a8be2913d535e049422d15eb2f09cc"
+    },
+    {
+      "path": "docs/architecture.md",
+      "bytes": 6550,
+      "sha256": "cc207b47257067f4b3fd707c145bffc5c718071fae8dce417c5efe7b9708068b"
+    },
+    {
+      "path": "docs/critical-review.md",
+      "bytes": 11529,
+      "sha256": "c47ca9fff23a6a50c6f8af5feaddb5dc7b944efb2cad2d174a117de95518dd59"
+    },
+    {
+      "path": "docs/ecosystem-context.md",
+      "bytes": 5633,
+      "sha256": "54721798c7545e76b9c6c0afef9512d521a5963b01574b49f38ec4bc19ad4756"
+    },
+    {
+      "path": "docs/experiment-plan.md",
+      "bytes": 9383,
+      "sha256": "4d6d8295b4905e9c7603993d6d4da5b329211097336edeb49fdf4f86be316f97"
+    },
+    {
+      "path": "docs/proposal.md",
+      "bytes": 9698,
+      "sha256": "144943b7915af3eb2824f7910443402889214db24aeebb0fa414ce75e5347dc7"
+    },
+    {
+      "path": "docs/submission-draft.md",
+      "bytes": 5625,
+      "sha256": "78fc6d3cf005d3120c5e9ea8cea9c636248426567faa1c4303d21788e0376c8c"
+    },
+    {
+      "path": "evidence/README.md",
+      "bytes": 1111,
+      "sha256": "481ede4eaa986c3ce3d74a9b30d031c8a60cdb8a2fb242cf920ddd423d3838d3"
+    },
+    {
+      "path": "evidence/claims.md",
+      "bytes": 3499,
+      "sha256": "597b2f799eebc8b9109cb087743cc882be1f92572fb93b6200ab720921a1a35e"
+    },
+    {
+      "path": "evidence/sources.json",
+      "bytes": 32711,
+      "sha256": "b4419ec3c33b518c6998bd9486303abeb852117db3d7ecf2650a37811a682765"
+    },
+    {
+      "path": "evidence/sources.md",
+      "bytes": 12332,
+      "sha256": "1efc7faf6d38f7d58941a8b5d87f928ad476b8a114e2156d51bf4c5d022cebef"
+    },
+    {
+      "path": "exports/proposal-v0.2.docx",
+      "bytes": 130622,
+      "sha256": "d366722036b26b504cf06c7266ed6f7f9c757c8b4e095f83312c4680435192e9"
+    }
+  ]
+}
