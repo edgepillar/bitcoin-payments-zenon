@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
   "status": "DRAFT_DOCUMENT_PACKAGE",
-  "draft_revision": "0.3",
+  "draft_revision": "0.4",
   "author_alias": "edgepillar",
   "research_snapshot_date": "2026-10-28",
-  "source_count": 62,
+  "source_count": 73,
   "interpretation": "File integrity only. No product tests, live payments, activation or independent security acceptance is established.",
   "files": [
     {
@@ -19,8 +19,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 2646,
-      "sha256": "710f3b9d0e6ae3bd83d085b0681f2ee226f378b8efaa5cdea0505a2412f39dc2"
+      "bytes": 3401,
+      "sha256": "208e7fac0220d487701919f644da9318c4dbec2a5cab018a3d38db3917b697b9"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -34,13 +34,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 5425,
-      "sha256": "c2e094cfb57d2fb413a3fb80089c7326c8c78eb92b0edb941a0fc451ede34b6e"
+      "bytes": 5828,
+      "sha256": "fae1c4bb88a021c15aa9710d7b28de66cf091e3988f9a8627648150c38540dd7"
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 15008,
-      "sha256": "7463a524bbed3c4b2cb8368d09cce6ec12746ed22e68b7c01beab5fccea1dbda"
+      "bytes": 15776,
+      "sha256": "26ec22374a1b034fff3418b871dc4a49b40f8c7dd66c6cf796314b225f02d263"
+    },
+    {
+      "path": "docs/compatibility-matrix.md",
+      "bytes": 6775,
+      "sha256": "c0f364a85d3dfff2447329870d7e82b0636ef0533902b0b54777c2ae661cce9c"
     },
     {
       "path": "docs/critical-review.md",
@@ -49,13 +54,18 @@
     },
     {
       "path": "docs/ecosystem-context.md",
-      "bytes": 7868,
-      "sha256": "e93f02bda828805dbdefe0c96fc0dc0c0aba92ac5476e084a8411208a9d3b766"
+      "bytes": 9274,
+      "sha256": "84fe19f3d217aebf93d67fda231ea6738e61d4b51d3d2f8c55fa31954a82649a"
     },
     {
       "path": "docs/experiment-plan.md",
-      "bytes": 12955,
-      "sha256": "d3e0181abd7f67aa3cf2667c2a9a3d3a376640ae57c101e5823dcf0a0795eef9"
+      "bytes": 13631,
+      "sha256": "410be2e28abb09ec4d1cf3c29aa93e7cf9e61d782a792e96989adbb5691a732d"
+    },
+    {
+      "path": "docs/interop-research-boundaries.md",
+      "bytes": 5940,
+      "sha256": "e7640309264c403e8c281cc03b0b9bbca2d4bc5403662c98ecd1f09827b06e48"
     },
     {
       "path": "docs/proposal.md",
@@ -89,13 +99,18 @@
     },
     {
       "path": "evidence/sources.json",
-      "bytes": 72235,
-      "sha256": "f93077a9d6db5f7288cb0deaaa066287b2e54095c223e419fd908269efe72d64"
+      "bytes": 84578,
+      "sha256": "be9b456c3caca60c4ebcb0bb24a95747b2f676b93cc64a0221a49b9fdf2f3c9e"
     },
     {
       "path": "evidence/sources.md",
-      "bytes": 16679,
-      "sha256": "4fb7aec71c08435cc91989e3bf1672e6e7be333fd70cc548f0c04f6a4de03139"
+      "bytes": 20136,
+      "sha256": "597d0413625977d5050dafa12af01f1eac21cb3c1f364d6a7b4483d38fddb11b"
+    },
+    {
+      "path": "evidence/technical-supplement-review.md",
+      "bytes": 3968,
+      "sha256": "5b3116614eaac54a28ccbfbf9beeb69788d216d7729e50c9e7c87df0bd0c144e"
     },
     {
       "path": "exports/README.md",

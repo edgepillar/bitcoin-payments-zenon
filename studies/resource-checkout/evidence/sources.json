@@ -1581,14 +1581,288 @@
         },
         "observed_body_sha256": "69b0f4f313ad14ffb98136670818263f417809338dca2363d0981aed9d9036c4"
       }
+    },
+    {
+      "id": "S63",
+      "key": "ptlc_reclaim",
+      "title": "PTLC optional reclaim-lock PR 216",
+      "url": "https://github.com/zenon-network/go-zenon/pull/216",
+      "observed_through": "2026-10-28",
+      "scope": "Merged development extension. Mainnet inactivity is source-reported; source, binary, activation and client recovery acceptance remain separate.",
+      "reference": {
+        "kind": "pull_request_observation",
+        "commit_sha": "b436efe5fe9a3663851b15ea44cbcf2235f5bf73",
+        "status": "dated_metadata_not_runtime_proof"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_PR",
+        "checked_at_utc": "2026-10-28T10:14:23.274960+00:00",
+        "repository_public": true,
+        "metadata": {
+          "number": 216,
+          "state": "closed",
+          "draft": false,
+          "merged": true,
+          "merged_at": "2026-10-24T10:51:02Z",
+          "merge_commit_sha": "b436efe5fe9a3663851b15ea44cbcf2235f5bf73"
+        }
+      }
+    },
+    {
+      "id": "S64",
+      "key": "ptlc_reclaim_message",
+      "title": "Pinned PTLC reclaim message",
+      "url": "https://github.com/zenon-network/go-zenon/blob/b436efe5fe9a3663851b15ea44cbcf2235f5bf73/vm/embedded/definition/ptlc.go",
+      "observed_through": "2026-10-28",
+      "scope": "Terms-bound domain-separated reclaim message. Distinguish serialized terms from the stored verification key; this is not a unique economic funding authorization.",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "b436efe5fe9a3663851b15ea44cbcf2235f5bf73",
+        "commit_sha": "b436efe5fe9a3663851b15ea44cbcf2235f5bf73",
+        "status": "reviewed_source_file_pinned"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-28T10:14:23.274960+00:00",
+        "repository_public": true,
+        "path": "vm/embedded/definition/ptlc.go",
+        "blob_sha": "e7a570656c9a8ab63776d945362df1afcbab3dfc",
+        "content_sha256": "47828cc885688d4ef9840719fbd4425edc0a0ca93d712199dcf00e01548f1917",
+        "bytes": 16170
+      }
+    },
+    {
+      "id": "S65",
+      "key": "ptlc_reclaim_execution",
+      "title": "Pinned PTLC reclaim execution",
+      "url": "https://github.com/zenon-network/go-zenon/blob/b436efe5fe9a3663851b15ea44cbcf2235f5bf73/vm/embedded/implementation/ptlc.go",
+      "observed_through": "2026-10-28",
+      "scope": "Reclaim-lock authentication and no unsigned fallback. The client must separately establish pre-funding authorization, expiry safety and recovery.",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "b436efe5fe9a3663851b15ea44cbcf2235f5bf73",
+        "commit_sha": "b436efe5fe9a3663851b15ea44cbcf2235f5bf73",
+        "status": "reviewed_source_file_pinned"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-28T10:14:23.274960+00:00",
+        "repository_public": true,
+        "path": "vm/embedded/implementation/ptlc.go",
+        "blob_sha": "353a8188c914710d04ab951f334505d85e1afc48",
+        "content_sha256": "86234b5f7e32524b1799e77aba5bcceac4ff9b12ce7d77efe78a5ee18f4cf24c",
+        "bytes": 27979
+      }
+    },
+    {
+      "id": "S66",
+      "key": "rpc_admission",
+      "title": "RPC connection admission PR 132",
+      "url": "https://github.com/zenon-network/go-zenon/pull/132",
+      "observed_through": "2026-10-28",
+      "scope": "Merged per-connection admission work, not an aggregate gateway, byte or lifetime bound. Installed source and binary behavior require separate qualification.",
+      "reference": {
+        "kind": "pull_request_observation",
+        "commit_sha": "f6114c7e3d055bac87e18f8e8969d846215c6370",
+        "status": "dated_metadata_not_runtime_proof"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_PR",
+        "checked_at_utc": "2026-10-28T10:14:23.274960+00:00",
+        "repository_public": true,
+        "metadata": {
+          "number": 132,
+          "state": "closed",
+          "draft": false,
+          "merged": true,
+          "merged_at": "2026-10-13T08:54:51Z",
+          "merge_commit_sha": "f6114c7e3d055bac87e18f8e8969d846215c6370"
+        }
+      }
+    },
+    {
+      "id": "S67",
+      "key": "pool_pending",
+      "title": "Pending-state pool rebuild PR 120",
+      "url": "https://github.com/zenon-network/go-zenon/pull/120",
+      "observed_through": "2026-10-28",
+      "scope": "Merged pending-state preservation work. Pool state is not payment settlement, contract processing or finality evidence.",
+      "reference": {
+        "kind": "pull_request_observation",
+        "commit_sha": "c25a596436432a544325a4b2ebb0257012d04fa1",
+        "status": "dated_metadata_not_runtime_proof"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_PR",
+        "checked_at_utc": "2026-10-28T10:14:23.274960+00:00",
+        "repository_public": true,
+        "metadata": {
+          "number": 120,
+          "state": "closed",
+          "draft": false,
+          "merged": true,
+          "merged_at": "2026-10-16T23:23:52Z",
+          "merge_commit_sha": "c25a596436432a544325a4b2ebb0257012d04fa1"
+        }
+      }
+    },
+    {
+      "id": "S68",
+      "key": "ferry_testing",
+      "title": "Ferry claim and recovery testing plan",
+      "url": "https://github.com/sol-znn/ferry-web/blob/c913cb9e44792b7167a2547fba6b031352939cc7/docs/TESTING.md",
+      "observed_through": "2026-10-28",
+      "scope": "Proposed real-chain and recovery acceptance with incomplete sign-off. Reading the plan does not execute it or authorize funds.",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "c913cb9e44792b7167a2547fba6b031352939cc7",
+        "commit_sha": "c913cb9e44792b7167a2547fba6b031352939cc7",
+        "status": "reviewed_source_file_pinned"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-28T09:51:10.298588+00:00",
+        "repository_public": true,
+        "path": "docs/TESTING.md",
+        "blob_sha": "49e4a4f7acf4a95df636281f350d3940c8a77682",
+        "content_sha256": "f644c22daaf8ca24fd054783aaff86993e4bdc7bf2c601c916270f7445511361",
+        "bytes": 40262
+      }
+    },
+    {
+      "id": "S69",
+      "key": "ferry_review",
+      "title": "Ferry September source review",
+      "url": "https://github.com/sol-znn/ferry-web/blob/c913cb9e44792b7167a2547fba6b031352939cc7/docs/REVIEW-2026-09.md",
+      "observed_through": "2026-10-28",
+      "scope": "Dated source review and correction context; not acceptance of a current deployment or independent refund qualification.",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "c913cb9e44792b7167a2547fba6b031352939cc7",
+        "commit_sha": "c913cb9e44792b7167a2547fba6b031352939cc7",
+        "status": "reviewed_source_file_pinned"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-28T09:51:10.298588+00:00",
+        "repository_public": true,
+        "path": "docs/REVIEW-2026-09.md",
+        "blob_sha": "c48a6cd23771a9ce430ca8c6ca9685f03814bb99",
+        "content_sha256": "ba370003e7a90aaa735eae4486236c203cbf44ce709c259bb0ebf5ce363cbc78",
+        "bytes": 16139
+      }
+    },
+    {
+      "id": "S70",
+      "key": "ferry_wallet",
+      "title": "Ferry extension-wallet boundary",
+      "url": "https://github.com/sol-znn/ferry-web/blob/c913cb9e44792b7167a2547fba6b031352939cc7/docs/EXTENSION-WALLET.md",
+      "observed_through": "2026-10-28",
+      "scope": "Human-approved account-block signing and publication. This is not a detached pre-publication signing interface.",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "c913cb9e44792b7167a2547fba6b031352939cc7",
+        "commit_sha": "c913cb9e44792b7167a2547fba6b031352939cc7",
+        "status": "reviewed_source_file_pinned"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-28T09:51:10.298588+00:00",
+        "repository_public": true,
+        "path": "docs/EXTENSION-WALLET.md",
+        "blob_sha": "d268c69c0d225c2feecdf49400009aa6e0624ab6",
+        "content_sha256": "7eab035fb04276df975965e3d2c294b0490bd202beda0644212b0a87136a82e2",
+        "bytes": 18484
+      }
+    },
+    {
+      "id": "S71",
+      "key": "decoder_reachability",
+      "title": "Native decoder reachability findings",
+      "url": "https://github.com/sol-znn/go-zenon-fuzz/blob/166e541ca625cdd503ab16faf94fdefd662f40c4/FINDINGS.md",
+      "observed_through": "2026-10-28",
+      "scope": "Reported 60cf7d9 core baseline: local decoder failures, tested remote surfaces and a conditional future snapshot-ingestion risk. No universal absence-of-vulnerabilities or current remote-exploit claim.",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "166e541ca625cdd503ab16faf94fdefd662f40c4",
+        "commit_sha": "166e541ca625cdd503ab16faf94fdefd662f40c4",
+        "status": "reviewed_source_file_pinned"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-28T09:51:08.559961+00:00",
+        "repository_public": true,
+        "path": "FINDINGS.md",
+        "blob_sha": "e364da314d7255d9d8fbc4661f1b728f634cd8b1",
+        "content_sha256": "8a51ba6d6436b91fa7bcd00c3e0ca075453bad122890164cb6a1b9271eb471a1",
+        "bytes": 7011
+      }
+    },
+    {
+      "id": "S72",
+      "key": "sdk_staged_plan",
+      "title": "SDK staged-preparation plan issue 31",
+      "url": "https://github.com/digitalSloth/znn-typescript-sdk/issues/31",
+      "observed_through": "2026-10-28",
+      "scope": "Maintainer-aligned plan. Open issue state alone proves neither delivery nor absence of every planned API; inspect the selected package, exports and consuming application separately.",
+      "reference": {
+        "kind": "issue_observation",
+        "commit_sha": null,
+        "status": "dated_metadata_not_runtime_proof"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_ISSUE",
+        "checked_at_utc": "2026-10-28T09:51:05.138843+00:00",
+        "repository_public": true,
+        "metadata": {
+          "number": 31,
+          "state": "open"
+        },
+        "observed_body_sha256": "989260180f8337776ffefa93ab2e1e471d87473d3533b3f7e4a8953407317553"
+      }
+    },
+    {
+      "id": "S73",
+      "key": "x402_v2",
+      "title": "x402 core version 2 specification",
+      "url": "https://github.com/x402-foundation/x402/blob/5847ee5a368130df48bd6ff958e1519de4c41163/specs/x402-specification-v2.md",
+      "observed_through": "2026-10-28",
+      "scope": "Core transport and scheme structures; each selected payment profile retains its own units, request binding, settlement and replay contract.",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "5847ee5a368130df48bd6ff958e1519de4c41163",
+        "commit_sha": "5847ee5a368130df48bd6ff958e1519de4c41163",
+        "status": "reviewed_source_file_pinned"
+      },
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-28T09:51:07.990542+00:00",
+        "repository_public": true,
+        "path": "specs/x402-specification-v2.md",
+        "blob_sha": "7f324a6d9af1a2403387dc64e65ad9555d2dd1fc",
+        "content_sha256": "c0c94b8cc8ed6b95ebc85c893277b6259a8ff92c0545d746c9574a1682ccb1a5",
+        "bytes": 39012
+      }
     }
   ],
-  "draft_revision": "0.3",
+  "draft_revision": "0.4",
   "source_review_date": "2026-10-28",
   "source_review_summary": {
-    "VERIFIED_PUBLIC_SOURCE": 47,
+    "VERIFIED_PUBLIC_SOURCE": 54,
     "VERIFIED_PUBLIC_HTTP": 5,
     "VERIFIED_PUBLIC_RELEASE": 2,
-    "VERIFIED_PUBLIC_PR": 8
+    "VERIFIED_PUBLIC_PR": 11,
+    "VERIFIED_PUBLIC_ISSUE": 1
   }
 }

@@ -61,6 +61,7 @@ First run local and integrated test environments using an exact manifest of node
 | Injected failure | Required outcome |
 | --- | --- |
 | Paid response loss and replay | Recover the same order and result. Replicas and restarts cannot create another accepted claim or job. Respect the selected protocol's legitimate credential reuse. |
+| Same payment under a different quote or resource | Submit one immutable payment identity with changed quote/resource metadata, including concurrent requests and restart. It cannot create a second independent entitlement or native authorization. Recovery of the original order and legitimate bounded L402 access must still work. |
 | Wrong or changed order | Wrong beneficiary, owner, amount, chain, genesis, expired quote or mutated terms cannot obtain delivery authority. Never identify delivery solely from an aggregate balance. |
 | Late payment after expiry | Record any verified payment as a liability even if the quote or inventory reservation expired. Reconcile the original order; do not discard the payment, silently reprice it or authorize another charge. |
 | Database or native publication uncertainty | At each commit boundary preserve original signed bytes, hash and owner. Reconcile before any new action; an unknown outcome is not permission to sign again. |
@@ -74,3 +75,5 @@ First run local and integrated test environments using an exact manifest of node
 | Observation disagreement or outage | Retain a visible unresolved state and the original evidence. Independent observations do not silently become a consensus or state proof. |
 
 Stop the affected test on an unexplained debit, wrong beneficiary, unjournaled signature, duplicate authorization, violated sold condition or unresolved real value incident. Preserve failure evidence privately and publish sanitized outcomes only after review. A later pass does not erase a failure. Expansion needs an independent review of the cause and new bounded acceptance.
+
+The [compatibility matrix](compatibility-matrix.md) identifies scheme, signer and node boundaries to freeze before execution. The eight [optional interoperability vectors](interop-research-boundaries.md) are separate future research and have not been executed. Neither set adds a swap or native customer-payment dependency to this experiment.

@@ -19,6 +19,8 @@ flowchart LR
 
 BTC payment and native fulfillment are separate events. This service needs no BTC bridge or swap. Full node observations retain explicit operator trust.
 
+The [Draft 0.4 compatibility supplement](compatibility-matrix.md) records scheme-specific payment flows, signer capabilities and node evidence limits. [Optional conversion research](interop-research-boundaries.md) remains outside this product's initial dependencies.
+
 ## Reuse the existing backend without assuming paid-service guarantees
 
 The reviewed Plasma Bot already has shared lease-aware execution, reservations, paged reconciliation, recycling and a bounded send queue. Reuse and adapt those components rather than invent their categories again. Their presence is source evidence, not acceptance of this proposed paid contract.
@@ -61,6 +63,8 @@ Use separate durable records for payment, authorization, native execution and de
 | Remedy | Keep a separate compensation liability and payment identity. Completion requires evidence of the actual remedy, not a request to send it. |
 
 These invariants aim at one native authorization with recoverable repeat requests. They do not claim an atomic database-to-chain transaction or exactly once execution under all failures. Any implementation must demonstrate the crash boundaries before real value use.
+
+Uniqueness must first bind the immutable underlying payment identity in its selected rail/network/receiver domain. A compound key containing resource or quote IDs is insufficient as the only protection: changing those IDs must not create another independent entitlement for the same payment. Recover the first order or explicitly bounded entitlement, including after concurrent retries and restart. This is proposed application behavior and must preserve the protocol's legitimate credential reuse.
 
 Delivery requires observing successful contract processing and the exact entry indexed by provider owner and original Fuse send hash. Check beneficiary, QSR amount and cancellation eligibility against the order. The release RPC lists entries by owner, with pagination; an adapter must not mistake a missing first-page entry for absence. A beneficiary's aggregate plasma reading cannot identify which order was delivered. Record the observation anchor, node identity, entry ID and depth policy privately. An accepted send alone is insufficient. [S06](https://github.com/zenon-network/go-zenon/blob/bb39e31c608dc397a91b98b21b096bca99a9f4d6/vm/embedded/implementation/plasma.go) [S08](https://github.com/zenon-network/go-zenon/blob/bb39e31c608dc397a91b98b21b096bca99a9f4d6/rpc/api/embedded/plasma.go)
 

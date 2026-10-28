@@ -2,6 +2,8 @@
 
 **Draft research proposal. No production implementation, executed pilot or adoption result is claimed.**
 
+Draft 0.4 adds a technical supplement to the unchanged Draft 0.3 core proposal: a [compatibility matrix](docs/compatibility-matrix.md), [optional interoperability boundaries](docs/interop-research-boundaries.md) and a [supplement review](evidence/technical-supplement-review.md). These additions do not expand the first product's dependency set.
+
 This study asks whether a customer who already needs Zenon resources would pay BTC over Lightning for a provider to supply plasma to a chosen beneficiary address. The provider uses its own QSR inventory. The customer need not acquire QSR for that resource service, although the underlying task may still require a Zenon wallet and other assets.
 
 Zenon's concrete role is the native resource service. Lightning remains the payment rail. The reviewed evidence does not demonstrate a general Zenon advantage over Lightning for ordinary BTC payments. Existing free provision and proof of work are part of the comparison; they may eliminate the commercial case.
@@ -19,9 +21,9 @@ The proposed starting point is an optional BTC checkout around an existing resou
 | [Critical review](docs/critical-review.md) | Ten objections to the earlier draft and the changes made in response |
 | [Ecosystem context](docs/ecosystem-context.md) | The relevance and limits of recent Zenon developments across the ecosystem |
 | [Possible submission](docs/submission-draft.md) | An unsubmitted short discussion draft |
-| [Sources](evidence/sources.md) | The 62 public primary references and their scope; [JSON](evidence/sources.json) is canonical for the source index |
+| [Sources](evidence/sources.md) | The 73 public primary references and their scope; [JSON](evidence/sources.json) is canonical for the source index |
 | [Claim ledger](evidence/claims.md) | Source observations, proposed design and claims that remain unestablished |
-| [Publication review](evidence/publication-review.md) | Source checks, corrected claims, privacy scope and remaining gates |
+| [Publication reviews](evidence/technical-supplement-review.md) | Current supplement scope and limits; [Draft 0.3 review](evidence/publication-review.md) is retained historically |
 | [Historical Word export](exports/README.md) | Draft 0.2 retained for history; Draft 0.3 Markdown supersedes it |
 
 ## Current decision

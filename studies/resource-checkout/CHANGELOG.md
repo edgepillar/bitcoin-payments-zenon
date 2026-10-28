@@ -1,5 +1,14 @@
 # Changelog
 
+## Draft 0.4 technical supplement 2026 10 28
+
+- Preserve the core Draft 0.3 proposal and discovery-first decision.
+- Add optional HTLC/PTLC/Lightning boundaries, PR #216 reclaim authorization and eight unexecuted future fault vectors.
+- Add protocol, signer and node capability distinctions, including sign-and-publish versus detached signing and scheme-specific settlement/replay rules.
+- Add an explicit changed-quote/resource replay case without restricting legitimate credential reuse.
+- Append eleven reviewed public sources as S63-S73, retaining S01-S62 and their original observation meaning.
+- Keep the historical Word export and prior publication review unchanged. No implementation, product execution, funds or external submission is included.
+
 ## Draft 0.3 publication review 2026 10 28
 
 - Add a reviewer brief and state the limited fit with Spiral's adoption-scale question.

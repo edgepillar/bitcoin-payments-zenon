@@ -1,8 +1,10 @@
 # Bitcoin payments and Zenon: research draft
 
-**Independent research by edgepillar. Draft 0.3. Not submitted to Spiral.**
+**Independent research by edgepillar. Draft 0.4 technical supplement. Not submitted to Spiral.**
 
 Start with the [reviewer brief](studies/resource-checkout/docs/reviewer-brief.md) and [full proposal](studies/resource-checkout/docs/proposal.md).
+
+The Draft 0.3 core proposal is unchanged. Draft 0.4 adds a [protocol, signer and node matrix](studies/resource-checkout/docs/compatibility-matrix.md), [optional interoperability research](studies/resource-checkout/docs/interop-research-boundaries.md) and a [technical supplement review](studies/resource-checkout/evidence/technical-supplement-review.md). New failure cases are proposed and unexecuted.
 
 The proposal tests a BTC checkout for an existing Zenon resource service. Lightning carries the payment; the provider fuses its own QSR for the customer's chosen beneficiary. The possible benefit is removing a QSR acquisition step for someone who already needs that service. Free sponsorship and proof of work may eliminate the paid market.
 
@@ -17,7 +19,7 @@ There is no demonstrated general Zenon advantage over Lightning for ordinary BTC
 | [Critical review](studies/resource-checkout/docs/critical-review.md) | Corrections to earlier claims and remaining objections |
 | [Ecosystem context](studies/resource-checkout/docs/ecosystem-context.md) | Relevant developments with source, release and activation kept distinct |
 | [Sources](studies/resource-checkout/evidence/sources.md) | Public primary references and exact source scope; [JSON](studies/resource-checkout/evidence/sources.json) |
-| [Publication review](studies/resource-checkout/evidence/publication-review.md) | Source checks, corrections, privacy scope and evidence limits |
+| [Supplement review](studies/resource-checkout/evidence/technical-supplement-review.md) | Draft 0.4 scope and limits; the [Draft 0.3 publication review](studies/resource-checkout/evidence/publication-review.md) is retained historically |
 | [Historical Word export](studies/resource-checkout/exports/README.md) | Draft 0.2 retained for history; superseded by Draft 0.3 Markdown |
 
 This repository contains documents. It has no implemented payment adapter, executed pilot, product benchmark or independent security certification. Publication does not mean submission, endorsement, funding, partnership or an operator commitment. No messages to Spiral accompany this repository.
