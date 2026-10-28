@@ -1,10 +1,11 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "status": "DRAFT_DOCUMENT_PACKAGE",
+  "draft_revision": "0.3",
   "author_alias": "edgepillar",
   "research_snapshot_date": "2026-10-28",
-  "source_count": 56,
-  "interpretation": "File integrity only. No product tests, live payments or activation evidence are established.",
+  "source_count": 62,
+  "interpretation": "File integrity only. No product tests, live payments, activation or independent security acceptance is established.",
   "files": [
     {
       "path": ".gitattributes",
@@ -18,13 +19,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1496,
-      "sha256": "5c0e52f189814376db27b38f3f75575190866c037abb052bef58d21f6b24e50b"
+      "bytes": 2646,
+      "sha256": "710f3b9d0e6ae3bd83d085b0681f2ee226f378b8efaa5cdea0505a2412f39dc2"
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 1349,
-      "sha256": "d4811dd63e2f40b39dddcad08784f6c261a3d24cc5cc42dc04b7406d95226456"
+      "bytes": 1333,
+      "sha256": "01e489e212cc546dc56d3c1e646869a3438d2218ccd8bc4d21d8c4613801041d"
     },
     {
       "path": "NOTICE.md",
@@ -33,58 +34,73 @@
     },
     {
       "path": "README.md",
-      "bytes": 4600,
-      "sha256": "cb406e2b0c7c82d8a29e0d2ffabbc08fe6a8be2913d535e049422d15eb2f09cc"
+      "bytes": 5425,
+      "sha256": "c2e094cfb57d2fb413a3fb80089c7326c8c78eb92b0edb941a0fc451ede34b6e"
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 6550,
-      "sha256": "cc207b47257067f4b3fd707c145bffc5c718071fae8dce417c5efe7b9708068b"
+      "bytes": 15008,
+      "sha256": "7463a524bbed3c4b2cb8368d09cce6ec12746ed22e68b7c01beab5fccea1dbda"
     },
     {
       "path": "docs/critical-review.md",
-      "bytes": 11529,
-      "sha256": "c47ca9fff23a6a50c6f8af5feaddb5dc7b944efb2cad2d174a117de95518dd59"
+      "bytes": 14490,
+      "sha256": "68fcedbea109379c5846d7a9f00653bde5cbf7c2f920ce5c5eef95c9c457c7e9"
     },
     {
       "path": "docs/ecosystem-context.md",
-      "bytes": 5633,
-      "sha256": "54721798c7545e76b9c6c0afef9512d521a5963b01574b49f38ec4bc19ad4756"
+      "bytes": 7868,
+      "sha256": "e93f02bda828805dbdefe0c96fc0dc0c0aba92ac5476e084a8411208a9d3b766"
     },
     {
       "path": "docs/experiment-plan.md",
-      "bytes": 9383,
-      "sha256": "4d6d8295b4905e9c7603993d6d4da5b329211097336edeb49fdf4f86be316f97"
+      "bytes": 12955,
+      "sha256": "d3e0181abd7f67aa3cf2667c2a9a3d3a376640ae57c101e5823dcf0a0795eef9"
     },
     {
       "path": "docs/proposal.md",
-      "bytes": 9698,
-      "sha256": "144943b7915af3eb2824f7910443402889214db24aeebb0fa414ce75e5347dc7"
+      "bytes": 12714,
+      "sha256": "e51a0045a80599484ec1c60db7c3595309b1c5ad2f4a6c6cf48cf481f81c5c02"
+    },
+    {
+      "path": "docs/reviewer-brief.md",
+      "bytes": 4345,
+      "sha256": "2507bb9cc6c376dddcb8e685a7cca0168982c2f4bcd3d1e867d3073165054843"
     },
     {
       "path": "docs/submission-draft.md",
-      "bytes": 5625,
-      "sha256": "78fc6d3cf005d3120c5e9ea8cea9c636248426567faa1c4303d21788e0376c8c"
+      "bytes": 6504,
+      "sha256": "574e120bde9ef3539d185458fa7b922d8b95868e79510b508df11c3505e884e6"
     },
     {
       "path": "evidence/README.md",
-      "bytes": 1111,
-      "sha256": "481ede4eaa986c3ce3d74a9b30d031c8a60cdb8a2fb242cf920ddd423d3838d3"
+      "bytes": 1506,
+      "sha256": "2d9eae8181b4abda78b450b567fe75f477231b6fca1b4d5bcb315d8fbac50b0f"
     },
     {
       "path": "evidence/claims.md",
-      "bytes": 3499,
-      "sha256": "597b2f799eebc8b9109cb087743cc882be1f92572fb93b6200ab720921a1a35e"
+      "bytes": 5759,
+      "sha256": "a64a204d54869f9f81281a18a7c1a524471438c80053652d545e1bac631a9ed8"
+    },
+    {
+      "path": "evidence/publication-review.md",
+      "bytes": 7370,
+      "sha256": "c4beaba1876cbc3a3fe890381d53e74e2a897e0a04db1beb958711da235e07d8"
     },
     {
       "path": "evidence/sources.json",
-      "bytes": 32711,
-      "sha256": "b4419ec3c33b518c6998bd9486303abeb852117db3d7ecf2650a37811a682765"
+      "bytes": 72235,
+      "sha256": "f93077a9d6db5f7288cb0deaaa066287b2e54095c223e419fd908269efe72d64"
     },
     {
       "path": "evidence/sources.md",
-      "bytes": 12332,
-      "sha256": "1efc7faf6d38f7d58941a8b5d87f928ad476b8a114e2156d51bf4c5d022cebef"
+      "bytes": 16679,
+      "sha256": "4fb7aec71c08435cc91989e3bf1672e6e7be333fd70cc548f0c04f6a4de03139"
+    },
+    {
+      "path": "exports/README.md",
+      "bytes": 697,
+      "sha256": "87e7a638cfefc3ad4a4fa02b8dba9c873285bcb2e34cda8da9059f4e8b26abb9"
     },
     {
       "path": "exports/proposal-v0.2.docx",

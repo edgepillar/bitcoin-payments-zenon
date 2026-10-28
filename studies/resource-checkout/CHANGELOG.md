@@ -1,5 +1,17 @@
 # Changelog
 
+## Draft 0.3 publication review 2026 10 28
+
+- Add a reviewer brief and state the limited fit with Spiral's adoption-scale question.
+- Distinguish a native cancellation eligibility height from automatic expiry and a longer provider promise.
+- Specify payment-to-order binding, recoverable authorization, signer response loss, owner-indexed entry lookup and late-payment liabilities.
+- Separate self-reported BTC funding from fiat-funded Lightning routing and unknown funding; disclose pseudonymous enrollment and Sybil limits.
+- Strengthen the comparison, missing-outcome policy, cost accounting and bounded discovery scope.
+- Refresh and pin reviewed public sources, correct the Loupe and faucet descriptions, and retain branch-specific wallet evidence limits.
+- Credit existing Plasma Bot execution, reconciliation and queue work rather than present those categories as new inventions.
+- Label the Word export as historical, with current Markdown as the authoritative draft.
+- Review reachable repository history, all candidate files and the Word package for publication privacy. This is document review, not an independent product security audit.
+
 ## Draft 0.2 repository edition 2026 10 28
 
 - Organize the reviewed proposal as Markdown with separate architecture, experiment and critical review documents.

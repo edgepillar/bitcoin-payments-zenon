@@ -8,4 +8,4 @@ Keep repository text in English. Exclude real identity, private paths, credentia
 
 Treat source observations, reported tests, independently reproduced tests, integration, activation and production operation separately. Preserve failures and unknowns. Document checks do not qualify the proposed payment system.
 
-Repository preparation does not authorize contacting Spiral, requesting maintainer work, publishing comments or changing the visibility of this draft. Those actions require their own explicit authorization. Before implementation, recheck current source overlap, exact revisions and the proposed operator boundary.
+Public availability does not imply submission to Spiral, a partnership or permission to speak for any cited project. Do not attribute commitments or reviews to people who have not made them. Before implementation, recheck current source overlap, exact revisions and the proposed operator boundary.

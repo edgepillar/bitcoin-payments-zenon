@@ -1,9 +1,9 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "status": "DRAFT_SOURCE_OBSERVATIONS",
   "source_observation_date": "2026-10-28",
   "author_alias": "edgepillar",
-  "interpretation": "Public primary citations and bounded scope notes. This index is not a conformance report or an execution manifest.",
+  "interpretation": "Reviewed public primary references with exact file commits and bounded scope. PR, release and external-page observations are dated; this is not a product conformance report or execution manifest.",
   "execution_requirement": "Freeze the exact source, dependencies, binaries, chain identity, active rules and verification policy before any experiment.",
   "sources": [
     {
@@ -17,9 +17,19 @@
         "kind": "commit_in_citation",
         "value": "5320295278e7ce3b5e1cb2d196def7a0fde3d729",
         "commit_sha": "5320295278e7ce3b5e1cb2d196def7a0fde3d729",
-        "status": "citation_pins_source_revision"
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/spiralxyz/bitcoin-payments/blob/5320295278e7ce3b5e1cb2d196def7a0fde3d729/README.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:56:58.294421+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "3df67b00e20b31ee44b2c19068056445806e9376",
+        "content_sha256": "48fee4527dde9e15cccb84648f4e8753d73dace8b658cd5acd910978fd778e97",
+        "bytes": 25232
+      }
     },
     {
       "id": "S02",
@@ -32,9 +42,19 @@
         "kind": "commit_in_citation",
         "value": "5320295278e7ce3b5e1cb2d196def7a0fde3d729",
         "commit_sha": "5320295278e7ce3b5e1cb2d196def7a0fde3d729",
-        "status": "citation_pins_source_revision"
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/spiralxyz/bitcoin-payments/blob/5320295278e7ce3b5e1cb2d196def7a0fde3d729/CONTRIBUTING.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:56:59.462987+00:00",
+        "repository_public": true,
+        "path": "CONTRIBUTING.md",
+        "blob_sha": "19e9f84e78283c83029b3de12945c683e892efe7",
+        "content_sha256": "8b66557da4b0b0b046782f4372652c00d389b17db9cc69a524d7c2fb1cbe283e",
+        "bytes": 2360
+      }
     },
     {
       "id": "S03",
@@ -47,174 +67,300 @@
         "kind": "commit_in_citation",
         "value": "5320295278e7ce3b5e1cb2d196def7a0fde3d729",
         "commit_sha": "5320295278e7ce3b5e1cb2d196def7a0fde3d729",
-        "status": "citation_pins_source_revision"
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/spiralxyz/bitcoin-payments/blob/5320295278e7ce3b5e1cb2d196def7a0fde3d729/.github/ISSUE_TEMPLATE/moonshot-idea.yml",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:56:59.956927+00:00",
+        "repository_public": true,
+        "path": ".github/ISSUE_TEMPLATE/moonshot-idea.yml",
+        "blob_sha": "a531c8a4f8ab5f85536d2bea570c7d784fa6acf7",
+        "content_sha256": "f4719d770a1ea2eea4c9e8e18d36684b1d5280df1af91b35e4fca929159f8a9a",
+        "bytes": 1377
+      }
     },
     {
       "id": "S04",
       "key": "bot",
       "title": "Plasma Bot implementation overview",
-      "url": "https://github.com/0x3639/plasma.bot",
+      "url": "https://github.com/0x3639/plasma.bot/blob/ada5a03a458c17c18083fcc099276248e8f611fe/README.md",
       "observed_through": "2026-10-28",
       "scope": "Existing provisioner and agent API; source documentation, not a deployment or commercial demand audit.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "ada5a03a458c17c18083fcc099276248e8f611fe",
+        "commit_sha": "ada5a03a458c17c18083fcc099276248e8f611fe",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/0x3639/plasma.bot",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:56:58.296522+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "7095ba5b55ea7f1f2f4c5933437b721b836f1b14",
+        "content_sha256": "c32d00f722aaf5b9096802cf11b329b1705353b27aaf382e03432dddb1b61024",
+        "bytes": 9018,
+        "reuse_license": {
+          "identifier": "MIT",
+          "url": "https://github.com/0x3639/plasma.bot/blob/ada5a03a458c17c18083fcc099276248e8f611fe/LICENSE",
+          "content_sha256": "7cbd834f65d821496cfceee256ead546ca60fb8e219906b16c562c71ecd79c07",
+          "scope": "Reference check only; no implementation source copied."
+        }
+      }
     },
     {
       "id": "S05",
       "key": "bot_plan",
       "title": "Plasma Bot roadmap",
-      "url": "https://github.com/0x3639/plasma.bot/blob/main/ROADMAP.md",
+      "url": "https://github.com/0x3639/plasma.bot/blob/ada5a03a458c17c18083fcc099276248e8f611fe/ROADMAP.md",
       "observed_through": "2026-10-28",
       "scope": "Current agent API; planned QSR or ZNN payments and MCP integration. BTC support is proposed here, not established.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "main",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "ada5a03a458c17c18083fcc099276248e8f611fe",
+        "commit_sha": "ada5a03a458c17c18083fcc099276248e8f611fe",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/0x3639/plasma.bot/blob/main/ROADMAP.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:56:59.765480+00:00",
+        "repository_public": true,
+        "path": "ROADMAP.md",
+        "blob_sha": "ae31384c78001af4da7a1a94796429f42c3ef8d3",
+        "content_sha256": "628f29cf9639fcf0ae5be5936152d6ee4969c92c0807ed12c885059b03653a33",
+        "bytes": 1161
+      }
     },
     {
       "id": "S06",
       "key": "fusion",
       "title": "Fusion and cancellation implementation",
-      "url": "https://github.com/zenon-network/go-zenon/blob/v0.0.9-alphanet/vm/embedded/implementation/plasma.go",
+      "url": "https://github.com/zenon-network/go-zenon/blob/bb39e31c608dc397a91b98b21b096bca99a9f4d6/vm/embedded/implementation/plasma.go",
       "observed_through": "2026-10-28",
       "scope": "Release tag source. Owner, beneficiary and cancellation behavior; exact deployed rules remain an acceptance gate.",
       "reference": {
-        "kind": "tag_in_citation",
-        "value": "v0.0.9-alphanet",
-        "commit_sha": null,
-        "status": "tag_requires_object_and_binary_provenance_before_execution"
+        "kind": "commit_in_citation",
+        "value": "bb39e31c608dc397a91b98b21b096bca99a9f4d6",
+        "commit_sha": "bb39e31c608dc397a91b98b21b096bca99a9f4d6",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/zenon-network/go-zenon/blob/v0.0.9-alphanet/vm/embedded/implementation/plasma.go",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:56:58.303118+00:00",
+        "repository_public": true,
+        "path": "vm/embedded/implementation/plasma.go",
+        "blob_sha": "d3291b6214662a9f2f3f5fec95cda7478bbeaac8",
+        "content_sha256": "74d9dcf4b95643346462f2d76c9b9f4662b90be4c81271f0981ad814985d068b",
+        "bytes": 4421
+      }
     },
     {
       "id": "S07",
       "key": "fusion_def",
       "title": "Fusion entry definition",
-      "url": "https://github.com/zenon-network/go-zenon/blob/dev/vm/embedded/definition/plasma.go",
+      "url": "https://github.com/zenon-network/go-zenon/blob/77ba9c7ee8c881e90911946756cdb67d8b586043/vm/embedded/definition/plasma.go",
       "observed_through": "2026-10-28",
       "scope": "Dated dev source for entry identity and beneficiary fields; not a deployed chain profile.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "dev",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "77ba9c7ee8c881e90911946756cdb67d8b586043",
+        "commit_sha": "77ba9c7ee8c881e90911946756cdb67d8b586043",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/zenon-network/go-zenon/blob/dev/vm/embedded/definition/plasma.go",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:56:59.435505+00:00",
+        "repository_public": true,
+        "path": "vm/embedded/definition/plasma.go",
+        "blob_sha": "dc53782985b9ed1df5e2e8994143dcdaa20a32c4",
+        "content_sha256": "9ec1fbe12a92d52e30632affa9fdea8d42c2e8c0a2271f080baee42fbc1c3f8d",
+        "bytes": 13284
+      }
     },
     {
       "id": "S08",
       "key": "fusion_rpc",
       "title": "Fusion and plasma RPC at the release tag",
-      "url": "https://github.com/zenon-network/go-zenon/blob/v0.0.9-alphanet/rpc/api/embedded/plasma.go",
+      "url": "https://github.com/zenon-network/go-zenon/blob/bb39e31c608dc397a91b98b21b096bca99a9f4d6/rpc/api/embedded/plasma.go",
       "observed_through": "2026-10-28",
       "scope": "Entries are listed by owner. Beneficiary plasma is an aggregate, not an order receipt.",
       "reference": {
-        "kind": "tag_in_citation",
-        "value": "v0.0.9-alphanet",
-        "commit_sha": null,
-        "status": "tag_requires_object_and_binary_provenance_before_execution"
+        "kind": "commit_in_citation",
+        "value": "bb39e31c608dc397a91b98b21b096bca99a9f4d6",
+        "commit_sha": "bb39e31c608dc397a91b98b21b096bca99a9f4d6",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/zenon-network/go-zenon/blob/v0.0.9-alphanet/rpc/api/embedded/plasma.go",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:00.514670+00:00",
+        "repository_public": true,
+        "path": "rpc/api/embedded/plasma.go",
+        "blob_sha": "b0a3ab531471a3d8d65c2568f17de66678e1d4d9",
+        "content_sha256": "a2ea471283453cac2063da0233df6be429f258bdc5588c55e5d183a0a16d8350",
+        "bytes": 7575
+      }
     },
     {
       "id": "S09",
       "key": "fusion_constants",
       "title": "Fusion constants at the release tag",
-      "url": "https://github.com/zenon-network/go-zenon/blob/v0.0.9-alphanet/vm/constants/embedded.go",
+      "url": "https://github.com/zenon-network/go-zenon/blob/bb39e31c608dc397a91b98b21b096bca99a9f4d6/vm/constants/embedded.go",
       "observed_through": "2026-10-28",
       "scope": "Contains environment dependent values; do not infer a universal lease duration from this file alone.",
       "reference": {
-        "kind": "tag_in_citation",
-        "value": "v0.0.9-alphanet",
-        "commit_sha": null,
-        "status": "tag_requires_object_and_binary_provenance_before_execution"
+        "kind": "commit_in_citation",
+        "value": "bb39e31c608dc397a91b98b21b096bca99a9f4d6",
+        "commit_sha": "bb39e31c608dc397a91b98b21b096bca99a9f4d6",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/zenon-network/go-zenon/blob/v0.0.9-alphanet/vm/constants/embedded.go",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:01.164899+00:00",
+        "repository_public": true,
+        "path": "vm/constants/embedded.go",
+        "blob_sha": "7d595813e55a07126d5eb2e6c3069dff020c11e5",
+        "content_sha256": "05772270b391b5c1240e358e13092039bea00dba9b46059670006837343fd843",
+        "bytes": 7312
+      }
     },
     {
       "id": "S10",
       "key": "l402",
       "title": "L402 protocol specification",
-      "url": "https://github.com/lightninglabs/L402/blob/master/protocol-specification.md",
+      "url": "https://github.com/lightninglabs/L402/blob/592203a95ea297fad6d7e10c6de2d827bfd450b2/protocol-specification.md",
       "observed_through": "2026-10-28",
       "scope": "Existing protocol; a separate adapter and compatibility target.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "master",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "592203a95ea297fad6d7e10c6de2d827bfd450b2",
+        "commit_sha": "592203a95ea297fad6d7e10c6de2d827bfd450b2",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/lightninglabs/L402/blob/master/protocol-specification.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:56:58.324965+00:00",
+        "repository_public": true,
+        "path": "protocol-specification.md",
+        "blob_sha": "88c0196c4f1d0f6a1997161dd6ac984913e2990c",
+        "content_sha256": "4f2bdba4167697cb34cf1dbb10298ffcdf7ddc382c0527bd94eb4dc647bea4d8",
+        "bytes": 16545
+      }
     },
     {
       "id": "S11",
       "key": "aperture",
       "title": "Aperture paid API proxy",
-      "url": "https://github.com/lightninglabs/aperture",
+      "url": "https://github.com/lightninglabs/aperture/blob/f6d91e78f22b445fea8e112f30172e5ea8b6cff3/README.md",
       "observed_through": "2026-10-28",
       "scope": "Existing service gateway and session or metered payment work; prior art for the baseline.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "f6d91e78f22b445fea8e112f30172e5ea8b6cff3",
+        "commit_sha": "f6d91e78f22b445fea8e112f30172e5ea8b6cff3",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/lightninglabs/aperture",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:00.502842+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "27fca5738222c99bc40ec077f73a28aa20de5f94",
+        "content_sha256": "edbac3b8b3dfa0c5b3bf2acd232ad2625fc482b9542d3dc38fd0e35164477e67",
+        "bytes": 18658
+      }
     },
     {
       "id": "S12",
       "key": "lnbtc",
       "title": "x402 exact lnbtc specification",
-      "url": "https://github.com/x402-foundation/x402/blob/main/specs/schemes/exact/scheme_exact_lnbtc.md",
+      "url": "https://github.com/x402-foundation/x402/blob/5847ee5a368130df48bd6ff958e1519de4c41163/specs/schemes/exact/scheme_exact_lnbtc.md",
       "observed_through": "2026-10-28",
       "scope": "Specification in main as reviewed on 28 October 2026; implementation coverage must be tested.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "main",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "5847ee5a368130df48bd6ff958e1519de4c41163",
+        "commit_sha": "5847ee5a368130df48bd6ff958e1519de4c41163",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/x402-foundation/x402/blob/main/specs/schemes/exact/scheme_exact_lnbtc.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:00.869676+00:00",
+        "repository_public": true,
+        "path": "specs/schemes/exact/scheme_exact_lnbtc.md",
+        "blob_sha": "0324b6fae9b77d31d349af80b4f5c079aa2df02a",
+        "content_sha256": "20711e1556930cb8e8f48ad471491f3f6c912ea78e688cc814da9d24b7f9d56b",
+        "bytes": 42076
+      }
     },
     {
       "id": "S13",
       "key": "ldk",
       "title": "LDK Node",
-      "url": "https://github.com/lightningdevkit/ldk-node",
+      "url": "https://github.com/lightningdevkit/ldk-node/blob/9386a1c92bf9515c349fb33ae80496542fdd9ddc/README.md",
       "observed_through": "2026-10-28",
       "scope": "Existing Lightning integration building block; deployment suitability remains an operator decision.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "9386a1c92bf9515c349fb33ae80496542fdd9ddc",
+        "commit_sha": "9386a1c92bf9515c349fb33ae80496542fdd9ddc",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/lightningdevkit/ldk-node",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:01.014024+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "1652541137c8f2c407de60e776f5d42fe801aec0",
+        "content_sha256": "a29977ee69d8e718d8de130f39ed3d5f8bb4a05ab21e37976cf2a3031910afaf",
+        "bytes": 8060
+      }
     },
     {
       "id": "S14",
       "key": "bdk",
       "title": "Bitcoin Development Kit",
-      "url": "https://github.com/bitcoindevkit/bdk",
+      "url": "https://github.com/bitcoindevkit/bdk/blob/f2528da88b1041bdddf547d677511aea19ad3573/README.md",
       "observed_through": "2026-10-28",
       "scope": "Existing bitcoin wallet building block; no new wallet cryptography is proposed.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "f2528da88b1041bdddf547d677511aea19ad3573",
+        "commit_sha": "f2528da88b1041bdddf547d677511aea19ad3573",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/bitcoindevkit/bdk",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:02.288588+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "76a557581b5a4283b2ef635fae340a57ac15ad67",
+        "content_sha256": "3da9d889ab70290b54cee25c24434af5545f35d89ab49e92cf6e7da2d72a669b",
+        "bytes": 5216
+      }
     },
     {
       "id": "S15",
@@ -224,12 +370,17 @@
       "observed_through": "2026-10-28",
       "scope": "Existing conditional payment primitive; not a quality oracle or proof of cross chain atomicity.",
       "reference": {
-        "kind": "documentation_url",
-        "value": null,
+        "kind": "external_page_observation",
         "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "status": "public_page_read_not_immutable"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_HTTP",
+        "checked_at_utc": "2026-10-27T23:57:17.748859+00:00",
+        "http_status": 200,
+        "response_sha256": "b7a32fd711564c7674ea7dab6190549336ec23fea5801501145b1ca24abd3505"
+      }
     },
     {
       "id": "S16",
@@ -239,12 +390,17 @@
       "observed_through": "2026-10-28",
       "scope": "Settles an accepted invoice. Its semantics differ from x402 proof consumption.",
       "reference": {
-        "kind": "documentation_url",
-        "value": null,
+        "kind": "external_page_observation",
         "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "status": "public_page_read_not_immutable"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_HTTP",
+        "checked_at_utc": "2026-10-27T23:57:17.749238+00:00",
+        "http_status": 200,
+        "response_sha256": "6c68030e43e2e46e6f1c62e22a6b3d48c0b7bce3ef98c31d06e9a8b2802e8133"
+      }
     },
     {
       "id": "S17",
@@ -254,12 +410,17 @@
       "observed_through": "2026-10-28",
       "scope": "Canceling a settled invoice fails; cancellation is not a refund of a completed payment.",
       "reference": {
-        "kind": "documentation_url",
-        "value": null,
+        "kind": "external_page_observation",
         "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "status": "public_page_read_not_immutable"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_HTTP",
+        "checked_at_utc": "2026-10-27T23:57:17.749395+00:00",
+        "http_status": 200,
+        "response_sha256": "218d93c9e243f59fe7e43f6a73510e6b6c8f78c1c1bc86f032ab34320a08a2de"
+      }
     },
     {
       "id": "S18",
@@ -269,27 +430,47 @@
       "observed_through": "2026-10-28",
       "scope": "Release dated 10 October 2026 at bb39e31; release existence does not prove activation.",
       "reference": {
-        "kind": "release_tag",
-        "value": "v0.0.9-alphanet",
-        "commit_sha": null,
-        "status": "release_existence_not_deployment_evidence"
+        "kind": "release_tag_observation",
+        "commit_sha": "bb39e31c608dc397a91b98b21b096bca99a9f4d6",
+        "status": "dated_metadata_not_runtime_proof"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_RELEASE",
+        "checked_at_utc": "2026-10-27T23:57:01.737975+00:00",
+        "repository_public": true,
+        "metadata": {
+          "draft": false,
+          "tag_name": "v0.0.9-alphanet",
+          "published_at": "2026-10-10T23:52:26Z",
+          "prerelease": false
+        }
+      }
     },
     {
       "id": "S19",
       "key": "spork",
       "title": "Current dev spork definitions",
-      "url": "https://github.com/zenon-network/go-zenon/blob/dev/common/types/spork.go",
+      "url": "https://github.com/zenon-network/go-zenon/blob/77ba9c7ee8c881e90911946756cdb67d8b586043/common/types/spork.go",
       "observed_through": "2026-10-28",
       "scope": "Reviewed on 28 October 2026. Dynamic Plasma and libp2p identifiers are placeholders in this source.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "dev",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "77ba9c7ee8c881e90911946756cdb67d8b586043",
+        "commit_sha": "77ba9c7ee8c881e90911946756cdb67d8b586043",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/zenon-network/go-zenon/blob/dev/common/types/spork.go",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:02.343331+00:00",
+        "repository_public": true,
+        "path": "common/types/spork.go",
+        "blob_sha": "4e2a2e7d86f4dd7dcbcdda4cef97ffccb1e1c1c9",
+        "content_sha256": "15bcda96ba75b7851f40bd2381654664bf8112c753bf6c780c6acb789dbd6d1c",
+        "bytes": 3891
+      }
     },
     {
       "id": "S20",
@@ -299,12 +480,24 @@
       "observed_through": "2026-10-28",
       "scope": "Merged to dev; candidate resource pricing work, not an observed mainnet activation.",
       "reference": {
-        "kind": "pull_request",
-        "value": "63",
-        "commit_sha": null,
-        "status": "reviewed_snapshot_not_runtime_evidence"
+        "kind": "pull_request_observation",
+        "commit_sha": "4e3ee659620064758f639f54c032c07e73469f42",
+        "status": "dated_metadata_not_runtime_proof"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_PR",
+        "checked_at_utc": "2026-10-27T23:57:02.815283+00:00",
+        "repository_public": true,
+        "metadata": {
+          "number": 63,
+          "state": "closed",
+          "draft": false,
+          "merged": true,
+          "merged_at": "2026-07-21T18:00:48Z",
+          "merge_commit_sha": "4e3ee659620064758f639f54c032c07e73469f42"
+        }
+      }
     },
     {
       "id": "S21",
@@ -314,12 +507,24 @@
       "observed_through": "2026-10-28",
       "scope": "Merged protocol change; operators and actual chain enforcement remain separate checks.",
       "reference": {
-        "kind": "pull_request",
-        "value": "101",
-        "commit_sha": null,
-        "status": "reviewed_snapshot_not_runtime_evidence"
+        "kind": "pull_request_observation",
+        "commit_sha": "a681890f0320921a8f3aec1a28fe3406674edd0b",
+        "status": "dated_metadata_not_runtime_proof"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_PR",
+        "checked_at_utc": "2026-10-27T23:57:04.448087+00:00",
+        "repository_public": true,
+        "metadata": {
+          "number": 101,
+          "state": "closed",
+          "draft": false,
+          "merged": true,
+          "merged_at": "2026-10-04T11:11:15Z",
+          "merge_commit_sha": "a681890f0320921a8f3aec1a28fe3406674edd0b"
+        }
+      }
     },
     {
       "id": "S22",
@@ -329,12 +534,24 @@
       "observed_through": "2026-10-28",
       "scope": "Merged 22 October 2026; scope differs between non mainnet rules and historical mainnet behavior.",
       "reference": {
-        "kind": "pull_request",
-        "value": "182",
-        "commit_sha": null,
-        "status": "reviewed_snapshot_not_runtime_evidence"
+        "kind": "pull_request_observation",
+        "commit_sha": "5cb5aac3bb21d012111d87466f946cbdccd344f6",
+        "status": "dated_metadata_not_runtime_proof"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_PR",
+        "checked_at_utc": "2026-10-27T23:57:05.770497+00:00",
+        "repository_public": true,
+        "metadata": {
+          "number": 182,
+          "state": "closed",
+          "draft": false,
+          "merged": true,
+          "merged_at": "2026-10-22T12:24:02Z",
+          "merge_commit_sha": "5cb5aac3bb21d012111d87466f946cbdccd344f6"
+        }
+      }
     },
     {
       "id": "S23",
@@ -344,12 +561,24 @@
       "observed_through": "2026-10-28",
       "scope": "Merged 20 October 2026; its replacement policy must not be copied into customer payment recovery.",
       "reference": {
-        "kind": "pull_request",
-        "value": "183",
-        "commit_sha": null,
-        "status": "reviewed_snapshot_not_runtime_evidence"
+        "kind": "pull_request_observation",
+        "commit_sha": "4172b57d590bfd96f1dd1ca5a102d57c6b38dcc4",
+        "status": "dated_metadata_not_runtime_proof"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_PR",
+        "checked_at_utc": "2026-10-27T23:57:07.152784+00:00",
+        "repository_public": true,
+        "metadata": {
+          "number": 183,
+          "state": "closed",
+          "draft": false,
+          "merged": true,
+          "merged_at": "2026-10-20T09:43:14Z",
+          "merge_commit_sha": "4172b57d590bfd96f1dd1ca5a102d57c6b38dcc4"
+        }
+      }
     },
     {
       "id": "S24",
@@ -359,27 +588,49 @@
       "observed_through": "2026-10-28",
       "scope": "Merged 15 October 2026 into dev. Contract activation and client swap safety are separate.",
       "reference": {
-        "kind": "pull_request",
-        "value": "138",
-        "commit_sha": null,
-        "status": "reviewed_snapshot_not_runtime_evidence"
+        "kind": "pull_request_observation",
+        "commit_sha": "5aabd3d5cb27aa3dbc0379c5fd37d5a301010716",
+        "status": "dated_metadata_not_runtime_proof"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_PR",
+        "checked_at_utc": "2026-10-27T23:57:08.470565+00:00",
+        "repository_public": true,
+        "metadata": {
+          "number": 138,
+          "state": "closed",
+          "draft": false,
+          "merged": true,
+          "merged_at": "2026-10-15T00:38:28Z",
+          "merge_commit_sha": "5aabd3d5cb27aa3dbc0379c5fd37d5a301010716"
+        }
+      }
     },
     {
       "id": "S25",
       "key": "ferry",
       "title": "Ferry implementation and security model",
-      "url": "https://github.com/sol-znn/ferry-web/blob/master/docs/SECURITY.md",
+      "url": "https://github.com/sol-znn/ferry-web/blob/c913cb9e44792b7167a2547fba6b031352939cc7/docs/SECURITY.md",
       "observed_through": "2026-10-28",
       "scope": "Existing HTLC client and explicit browser, deployment and recovery limitations.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "master",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "c913cb9e44792b7167a2547fba6b031352939cc7",
+        "commit_sha": "c913cb9e44792b7167a2547fba6b031352939cc7",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/sol-znn/ferry-web/blob/master/docs/SECURITY.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:02.581715+00:00",
+        "repository_public": true,
+        "path": "docs/SECURITY.md",
+        "blob_sha": "8a4ff9774936b8bd7e39d1fcaf4722ef809c6e8f",
+        "content_sha256": "65a8b39c8039d260854d202ee88fc86e2e8404bb6835bef5ebf1ba6cabd4dc8e",
+        "bytes": 12376
+      }
     },
     {
       "id": "S26",
@@ -389,117 +640,192 @@
       "observed_through": "2026-10-28",
       "scope": "Developer reports a mainnet BTC and ZNN swap. This proposal did not independently reproduce it.",
       "reference": {
-        "kind": "documentation_url",
-        "value": null,
+        "kind": "external_page_observation",
         "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "status": "public_page_read_not_immutable"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_HTTP",
+        "checked_at_utc": "2026-10-27T23:57:17.749530+00:00",
+        "http_status": 200,
+        "response_sha256": "b7676960088222c3274822d68ba10d8012f990627d7a8c2fdb5215d9f9cdad04"
+      }
     },
     {
       "id": "S27",
       "key": "ptlc_tools",
       "title": "PTLC console",
-      "url": "https://github.com/sol-znn/ptlc-console",
+      "url": "https://github.com/sol-znn/ptlc-console/blob/3b6e5601da164c2c8a8274eac1a1a507924e9697/README.md",
       "observed_through": "2026-10-28",
       "scope": "Demonstration tooling; simulated bitcoin transactions in the console are distinct from regtest blocks.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "3b6e5601da164c2c8a8274eac1a1a507924e9697",
+        "commit_sha": "3b6e5601da164c2c8a8274eac1a1a507924e9697",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/sol-znn/ptlc-console",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:02.745167+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "d8090343c07eb07bd76b67e7263f8002d5911d46",
+        "content_sha256": "916b62d0ca2d54c1e1e2efd9aec902544d515a508ac3713770cdbf9f511df3d5",
+        "bytes": 13091
+      }
     },
     {
       "id": "S28",
       "key": "ptlc_research",
       "title": "PTLC research",
-      "url": "https://github.com/edgepillar/ptlc-research",
+      "url": "https://github.com/edgepillar/ptlc-research/blob/b60b2a0c8009e004afe669627ccdfb20c1b9761e/README.md",
       "observed_through": "2026-10-28",
       "scope": "Public research and recovery work; independent acceptance remains a separate gate.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "b60b2a0c8009e004afe669627ccdfb20c1b9761e",
+        "commit_sha": "b60b2a0c8009e004afe669627ccdfb20c1b9761e",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/edgepillar/ptlc-research",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:03.832212+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "9cf894b94950bb944d1fe7269794ce3d7525d652",
+        "content_sha256": "805aea34c8c016a93e5202ca42eb27fcaafb0918e2f79d5ee1ea5ab8f928ba65",
+        "bytes": 134648
+      }
     },
     {
       "id": "S29",
       "key": "spv",
       "title": "Zenon SPV verification contract",
-      "url": "https://github.com/edgepillar/zenon-spv/blob/main/docs/verification-contract.md",
+      "url": "https://github.com/edgepillar/zenon-spv/blob/2776e2b38847bc7b7bc338cb750663b83c92a04d/docs/verification-contract.md",
       "observed_through": "2026-10-28",
       "scope": "Bounded v1 and v2 verification and explicit trust assumptions; state values remain unsupported.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "main",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "2776e2b38847bc7b7bc338cb750663b83c92a04d",
+        "commit_sha": "2776e2b38847bc7b7bc338cb750663b83c92a04d",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/edgepillar/zenon-spv/blob/main/docs/verification-contract.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:04.689847+00:00",
+        "repository_public": true,
+        "path": "docs/verification-contract.md",
+        "blob_sha": "d57854d8191d46f5a521370f3efd7a4f1602ef5a",
+        "content_sha256": "a6f67532225ddb4b8d86b43793f333da0f531bf88631eb71a33aae7416a3129b",
+        "bytes": 9312
+      }
     },
     {
       "id": "S30",
       "key": "state_audit",
       "title": "State commitment audit",
-      "url": "https://github.com/edgepillar/zenon-spv/blob/main/docs/state-commitment-audit.md",
+      "url": "https://github.com/edgepillar/zenon-spv/blob/2776e2b38847bc7b7bc338cb750663b83c92a04d/docs/state-commitment-audit.md",
       "observed_through": "2026-10-28",
       "scope": "Audit baseline and commitment distinctions; it is not a statement about every later fork.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "main",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "2776e2b38847bc7b7bc338cb750663b83c92a04d",
+        "commit_sha": "2776e2b38847bc7b7bc338cb750663b83c92a04d",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/edgepillar/zenon-spv/blob/main/docs/state-commitment-audit.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:05.718629+00:00",
+        "repository_public": true,
+        "path": "docs/state-commitment-audit.md",
+        "blob_sha": "bef321fd04317c2174733cb45c8b3c0c07055cdc",
+        "content_sha256": "e071f545e946cf6d4de618cf6284f3dd0941e2b7a76778315de092f4c2dcf5e7",
+        "bytes": 15758
+      }
     },
     {
       "id": "S31",
       "key": "state_root",
       "title": "Candidate state root header",
-      "url": "https://github.com/digitalSloth/go-zenon/blob/feature/merkle-state-root/chain/nom/momentum.go",
+      "url": "https://github.com/digitalSloth/go-zenon/blob/9c71ae82fc983e16f914ae085d4034030c8ebe3b/chain/nom/momentum.go",
       "observed_through": "2026-10-28",
       "scope": "Candidate branch containing a v3 header commitment; no acceptance or activation claim.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "feature/merkle-state-root",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "9c71ae82fc983e16f914ae085d4034030c8ebe3b",
+        "commit_sha": "9c71ae82fc983e16f914ae085d4034030c8ebe3b",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/digitalSloth/go-zenon/blob/feature/merkle-state-root/chain/nom/momentum.go",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:04.730126+00:00",
+        "repository_public": true,
+        "path": "chain/nom/momentum.go",
+        "blob_sha": "fbcdcbd3cd510a0302c174774c488adc72206012",
+        "content_sha256": "25cd3bf3eeab0e0fc5d12a03f7f58a7662ef589d4f85e5f7477a1a754ce1fa51",
+        "bytes": 6089
+      }
     },
     {
       "id": "S32",
       "key": "state_prepare",
       "title": "Candidate state tree preparation",
-      "url": "https://github.com/digitalSloth/go-zenon/blob/feature/merkle-state-root/docs/STATE_TREE_PREBUILD.md",
+      "url": "https://github.com/digitalSloth/go-zenon/blob/9c71ae82fc983e16f914ae085d4034030c8ebe3b/docs/STATE_TREE_PREBUILD.md",
       "observed_through": "2026-10-28",
       "scope": "Operator preparation for the candidate; provenance and verifier compatibility still need qualification.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "feature/merkle-state-root",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "9c71ae82fc983e16f914ae085d4034030c8ebe3b",
+        "commit_sha": "9c71ae82fc983e16f914ae085d4034030c8ebe3b",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/digitalSloth/go-zenon/blob/feature/merkle-state-root/docs/STATE_TREE_PREBUILD.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:06.062968+00:00",
+        "repository_public": true,
+        "path": "docs/STATE_TREE_PREBUILD.md",
+        "blob_sha": "7b7dcdffd446829350f4c0b1952d6ac4f9e3ee05",
+        "content_sha256": "ac0f14195bead016abd3a36e4f409bef3c89616bb5d92a9bb741e0e8b1c2bc67",
+        "bytes": 6049
+      }
     },
     {
       "id": "S33",
       "key": "x402",
       "title": "Zenon x402 proof of concept",
-      "url": "https://github.com/edgepillar/zenon-x402-poc",
+      "url": "https://github.com/edgepillar/zenon-x402-poc/blob/6a0af7d6c96fe770b7c141c44894536f2a543b68/README.md",
       "observed_through": "2026-10-28",
       "scope": "Research adapter and recovery work; not an official x402 network or production deployment.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "6a0af7d6c96fe770b7c141c44894536f2a543b68",
+        "commit_sha": "6a0af7d6c96fe770b7c141c44894536f2a543b68",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/edgepillar/zenon-x402-poc",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:05.732993+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "b76a19e7660d306416e14fc0b596753c9632a874",
+        "content_sha256": "a90c52ba1d5ee14cc0ed557c90ff64f8d2a7e765a52c1e916779831f310ba319",
+        "bytes": 303625
+      }
     },
     {
       "id": "S34",
@@ -512,9 +838,19 @@
         "kind": "commit_in_citation",
         "value": "6a0af7d6c96fe770b7c141c44894536f2a543b68",
         "commit_sha": "6a0af7d6c96fe770b7c141c44894536f2a543b68",
-        "status": "citation_pins_source_revision"
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/edgepillar/zenon-x402-poc/blob/6a0af7d6c96fe770b7c141c44894536f2a543b68/docs/P1_NATIVE_V4_PENDING_LOCAL_QUALIFICATION.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:07.077686+00:00",
+        "repository_public": true,
+        "path": "docs/P1_NATIVE_V4_PENDING_LOCAL_QUALIFICATION.md",
+        "blob_sha": "d262006597c4ea8c25ee33242403142b133f2eea",
+        "content_sha256": "36a037d228b3728f198b2c35e6bece64ff7fad57c21417ef4d34134541fd273b",
+        "bytes": 4099
+      }
     },
     {
       "id": "S35",
@@ -522,119 +858,199 @@
       "title": "Syrius Extension v0.3.7",
       "url": "https://github.com/sol-znn/syrius-extension/releases/tag/v0.3.7",
       "observed_through": "2026-10-28",
-      "scope": "Release dated 22 October 2026 at bec8791; later branch work is a different artifact.",
+      "scope": "Release published 22 October 2026. The resolved tag commit is recorded; release target text is not binary provenance and no package was installed.",
       "reference": {
-        "kind": "release_tag",
-        "value": "v0.3.7",
-        "commit_sha": null,
-        "status": "release_existence_not_deployment_evidence"
+        "kind": "release_tag_observation",
+        "commit_sha": "ca143db894d3dbdacd474962ea3d138c0d009c1f",
+        "status": "dated_metadata_not_runtime_proof"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_RELEASE",
+        "checked_at_utc": "2026-10-27T23:57:06.825498+00:00",
+        "repository_public": true,
+        "metadata": {
+          "draft": false,
+          "tag_name": "v0.3.7",
+          "published_at": "2026-10-22T06:33:41Z",
+          "prerelease": false
+        }
+      }
     },
     {
       "id": "S36",
       "key": "wallet",
       "title": "Syrius Extension integration contract",
-      "url": "https://github.com/sol-znn/syrius-extension/blob/master/docs/INTEGRATION.md",
+      "url": "https://github.com/sol-znn/syrius-extension/blob/8edb3632014e6dec1206bcd13f876d01c3696947/docs/INTEGRATION.md",
       "observed_through": "2026-10-28",
       "scope": "Origin permission and signing boundary; browser and mobile paths require distinct tests.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "master",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "8edb3632014e6dec1206bcd13f876d01c3696947",
+        "commit_sha": "8edb3632014e6dec1206bcd13f876d01c3696947",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/sol-znn/syrius-extension/blob/master/docs/INTEGRATION.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:07.956906+00:00",
+        "repository_public": true,
+        "path": "docs/INTEGRATION.md",
+        "blob_sha": "800f3886d45e9a0f19302c1b5b3c37e7a210d77e",
+        "content_sha256": "c24f500599731a5403707a59dccafd6cfd701fc0fddffb772326ce21419db8df",
+        "bytes": 10029
+      }
     },
     {
       "id": "S37",
       "key": "sdk",
       "title": "Zenon TypeScript SDK",
-      "url": "https://github.com/digitalSloth/znn-typescript-sdk",
+      "url": "https://github.com/digitalSloth/znn-typescript-sdk/blob/a8a4da9cd110ede43ecd5bfad7451bc7871022fd/README.md",
       "observed_through": "2026-10-28",
       "scope": "Client implementation; versions and active node semantics must be matched.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "a8a4da9cd110ede43ecd5bfad7451bc7871022fd",
+        "commit_sha": "a8a4da9cd110ede43ecd5bfad7451bc7871022fd",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/digitalSloth/znn-typescript-sdk",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:07.101747+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "de44ec7763c44c23e17aad9a718651abcbfe4c03",
+        "content_sha256": "2eedcb51389ea3d3563bf1a6ab67ae392c30e15f79590f10ca246bc2f6bcffee",
+        "bytes": 11735
+      }
     },
     {
       "id": "S38",
       "key": "sdk_spec",
       "title": "Zenon SDK specification",
-      "url": "https://github.com/0x3639/zenon-sdk-spec",
+      "url": "https://github.com/0x3639/zenon-sdk-spec/blob/69f2ecf955bafa4037c73f4b858619ef834e738b/README.md",
       "observed_through": "2026-10-28",
       "scope": "Language neutral specification and vectors; not proof that a new network profile is deployed.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "69f2ecf955bafa4037c73f4b858619ef834e738b",
+        "commit_sha": "69f2ecf955bafa4037c73f4b858619ef834e738b",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/0x3639/zenon-sdk-spec",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:08.628898+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "92f4ca413e1c748aad1255126ef0c3b8d446a9fe",
+        "content_sha256": "2fbb8fa29c0ec3197c4ecbf839bd1ae33105dae24a95ee04b6f26eef471807cc",
+        "bytes": 5070
+      }
     },
     {
       "id": "S39",
       "key": "zvm",
       "title": "ZVM architecture",
-      "url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/main/ARCHITECTURE.md",
+      "url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/35c5be8a59059a9e1f3aab40c980ef6cd18cf0be/ARCHITECTURE.md",
       "observed_through": "2026-10-28",
-      "scope": "Eighteen repository devnet architecture based on NoM ordering and EVM derivation.",
+      "scope": "Multi-repository NoM ordering and EVM derivation design; no independently reproduced deployment or adoption result is inferred.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "main",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+        "commit_sha": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/main/ARCHITECTURE.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:08.957262+00:00",
+        "repository_public": true,
+        "path": "ARCHITECTURE.md",
+        "blob_sha": "caac0ba36b4e516e88ee8261b84461d06becc399",
+        "content_sha256": "77119b7cf308b890178e2e206846a00d48780f755851d7ac8be2b84791dc2d28",
+        "bytes": 19112
+      }
     },
     {
       "id": "S40",
       "key": "committee",
       "title": "ZVM committee operations",
-      "url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/main/operations/COMMITTEE.md",
+      "url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/35c5be8a59059a9e1f3aab40c980ef6cd18cf0be/operations/COMMITTEE.md",
       "observed_through": "2026-10-28",
       "scope": "Threshold vault operations; collusion and availability remain material trust assumptions.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "main",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+        "commit_sha": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/main/operations/COMMITTEE.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:10.461877+00:00",
+        "repository_public": true,
+        "path": "operations/COMMITTEE.md",
+        "blob_sha": "0d168bf2945397826187150c4ff35b987dc9400a",
+        "content_sha256": "2c23d0f4ad5539ee615912cb6071c3258cd18a7f12b7de26c78d41c5ec975a0b",
+        "bytes": 16022
+      }
     },
     {
       "id": "S41",
       "key": "zvm_future",
       "title": "ZVM future development",
-      "url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/main/planning/FUTURE.md",
+      "url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/35c5be8a59059a9e1f3aab40c980ef6cd18cf0be/planning/FUTURE.md",
       "observed_through": "2026-10-28",
       "scope": "Separates proposed additions such as trustless peg out from implemented behavior.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "main",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+        "commit_sha": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/main/planning/FUTURE.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:10.990625+00:00",
+        "repository_public": true,
+        "path": "planning/FUTURE.md",
+        "blob_sha": "0e80373b86fa227a3021a448a6e4231ab89d6672",
+        "content_sha256": "e11657b9da5f63b6d616fe55eceb0bba2520a34d3827fa8cf577d2d88a70444e",
+        "bytes": 18650
+      }
     },
     {
       "id": "S42",
       "key": "fleet",
       "title": "ZVM fleet benchmark results",
-      "url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/main/benchmarks/results/FLEET-v2.md",
+      "url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/35c5be8a59059a9e1f3aab40c980ef6cd18cf0be/benchmarks/results/FLEET-v2.md",
       "observed_through": "2026-10-28",
       "scope": "Developer reported devnet measurements; not mainnet capacity or an independent benchmark.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "main",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+        "commit_sha": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/Zenoglyphs-VM/zvm-docs/blob/main/benchmarks/results/FLEET-v2.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:11.570240+00:00",
+        "repository_public": true,
+        "path": "benchmarks/results/FLEET-v2.md",
+        "blob_sha": "2fbb5794dea3943a612e3d573f28166582abce15",
+        "content_sha256": "90e83578714ee69361fb4fa6c6afff2463edda829b8d45187483929b998ba0e9",
+        "bytes": 7727
+      }
     },
     {
       "id": "S43",
@@ -644,12 +1060,24 @@
       "observed_through": "2026-10-28",
       "scope": "Draft protocol work as reviewed; not an active wallet capability.",
       "reference": {
-        "kind": "pull_request",
-        "value": "72",
+        "kind": "pull_request_observation",
         "commit_sha": null,
-        "status": "reviewed_snapshot_not_runtime_evidence"
+        "status": "dated_metadata_not_runtime_proof"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_PR",
+        "checked_at_utc": "2026-10-27T23:57:09.949971+00:00",
+        "repository_public": true,
+        "metadata": {
+          "number": 72,
+          "state": "open",
+          "draft": true,
+          "merged": false,
+          "merged_at": null,
+          "merge_commit_sha": null
+        }
+      }
     },
     {
       "id": "S44",
@@ -659,192 +1087,508 @@
       "observed_through": "2026-10-28",
       "scope": "Draft governance work; distinct from the merged community spork renewal.",
       "reference": {
-        "kind": "documentation_url",
-        "value": null,
+        "kind": "external_page_observation",
         "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "status": "public_page_read_not_immutable"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_HTTP",
+        "checked_at_utc": "2026-10-27T23:57:18.153333+00:00",
+        "http_status": 200,
+        "response_sha256": "143fb7c954a02a957adb78a9577a7ec48e38f4e9f378c5c9d913917bc062249f"
+      }
     },
     {
       "id": "S45",
       "key": "nomctl",
       "title": "nomctl operator tooling",
-      "url": "https://github.com/0x3639/nomctl",
+      "url": "https://github.com/0x3639/nomctl/blob/fd0911f8099784cd0b00a681d532ab5ecb59ad95/README.md",
       "observed_through": "2026-10-28",
       "scope": "Operational tooling; node or bridge health must still be measured in the chosen environment.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "fd0911f8099784cd0b00a681d532ab5ecb59ad95",
+        "commit_sha": "fd0911f8099784cd0b00a681d532ab5ecb59ad95",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/0x3639/nomctl",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:09.616987+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "2627a675b7ae92682ae5f60e0a116942e945f3fb",
+        "content_sha256": "c9d6c9484628613f269b51e112e5bcc10f107fc613d590f3c855834735051be6",
+        "bytes": 2676
+      }
     },
     {
       "id": "S46",
       "key": "bridge",
       "title": "Existing bridge frontend",
-      "url": "https://github.com/sol-znn/bridge.mainnet.zenon.community",
+      "url": "https://github.com/sol-znn/bridge.mainnet.zenon.community/blob/5a4e8c5f8694ad017eac7258fc97b3900822d819/readme.md",
       "observed_through": "2026-10-28",
       "scope": "Existing bridge application; repository changes do not establish live bridge availability.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "5a4e8c5f8694ad017eac7258fc97b3900822d819",
+        "commit_sha": "5a4e8c5f8694ad017eac7258fc97b3900822d819",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/sol-znn/bridge.mainnet.zenon.community",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:10.734582+00:00",
+        "repository_public": true,
+        "path": "readme.md",
+        "blob_sha": "91854fd338015d3fcca382e97353b53727edcc3c",
+        "content_sha256": "ff94d6d29bbb45d33d7d434307161404b5e0637736aa43bf865a15ed5c6699f1",
+        "bytes": 5066
+      }
     },
     {
       "id": "S47",
       "key": "orchestrator",
       "title": "Bridge orchestrator development",
-      "url": "https://github.com/0x3639/orchestrator",
+      "url": "https://github.com/0x3639/orchestrator/blob/edf58a929989e70656a5f04501b25fb918f6ef71/README.md",
       "observed_through": "2026-10-28",
       "scope": "Bridge service development; no production health or custody guarantee is inferred.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "edf58a929989e70656a5f04501b25fb918f6ef71",
+        "commit_sha": "edf58a929989e70656a5f04501b25fb918f6ef71",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/0x3639/orchestrator",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:11.553487+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "1890015fa477619af410228890420ead5e79aaac",
+        "content_sha256": "d8c7ddbe97a9c0901dc53106d6abd675b28711b337b7285dddd4f3aeb2b8dcda",
+        "bytes": 154
+      }
     },
     {
       "id": "S48",
       "key": "loupe",
-      "title": "Loupe",
-      "url": "https://github.com/zenon-network/loupe",
+      "title": "Loupe security-scan pitch design",
+      "url": "https://github.com/zenon-network/loupe/blob/48da350a4a471f985d99ae92b09b246747b6165e/docs/superpowers/specs/2026-07-18-zenon-loupe-pitch-design.md",
       "observed_through": "2026-10-28",
-      "scope": "Wallet and payments coordination work; no partnership, deployment or user demand is assumed.",
+      "scope": "Design for a landing page pitching a go-zenon security scan to Spiral's Loupe team. It is not a wallet, a completed audit or evidence of Spiral acceptance.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "48da350a4a471f985d99ae92b09b246747b6165e",
+        "commit_sha": "48da350a4a471f985d99ae92b09b246747b6165e",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/zenon-network/loupe",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-28T00:09:55.752906+00:00",
+        "repository_public": true,
+        "path": "docs/superpowers/specs/2026-07-18-zenon-loupe-pitch-design.md",
+        "blob_sha": "01a1b85b00a791a3aa0f5e703be2597256fab682",
+        "content_sha256": "6ed00b57712cf8981f55c15e83bbde9ebd876e7906b92205337d0e765d277cc5",
+        "bytes": 4897,
+        "initial_lookup": "The repository README lookup was unavailable; follow-up read the pinned design document."
+      }
     },
     {
       "id": "S49",
       "key": "portal",
       "title": "Zenon Portal research",
-      "url": "https://github.com/TminusZ/zenon-developer-commons/blob/main/docs/specs/Zenon%20Portal/Portal%20V2/zenon_portal_final.md",
+      "url": "https://github.com/TminusZ/zenon-developer-commons/blob/5c675c8ae6749cdf8451f846e78f9a5ee45f81e0/docs/specs/Zenon%20Portal/Portal%20V2/zenon_portal_final.md",
       "observed_through": "2026-10-28",
       "scope": "Research design; the document name does not establish an implementation or independent audit.",
       "reference": {
-        "kind": "mutable_ref_in_citation",
-        "value": "main",
-        "commit_sha": null,
-        "status": "mutable_or_unresolved"
+        "kind": "commit_in_citation",
+        "value": "5c675c8ae6749cdf8451f846e78f9a5ee45f81e0",
+        "commit_sha": "5c675c8ae6749cdf8451f846e78f9a5ee45f81e0",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/TminusZ/zenon-developer-commons/blob/main/docs/specs/Zenon%20Portal/Portal%20V2/zenon_portal_final.md",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:12.560719+00:00",
+        "repository_public": true,
+        "path": "docs/specs/Zenon Portal/Portal V2/zenon_portal_final.md",
+        "blob_sha": "aad94bb5843fb4d5847a8faffad65e607d3aba97",
+        "content_sha256": "a3011b4f569bdd5d03cbdaf14027bb0ed57d61b99900bec170ea7a8440df1bbf",
+        "bytes": 69973
+      }
     },
     {
       "id": "S50",
       "key": "core_spec",
       "title": "Zenon core specification",
-      "url": "https://github.com/0x3639/go-zenon-spec",
+      "url": "https://github.com/0x3639/go-zenon-spec/blob/0ebd06bcbbdedbbbe56fc1436f78f7b7eb0ae422/README.md",
       "observed_through": "2026-10-28",
       "scope": "Reference work with an older pinned baseline; not current core conformance certification.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "0ebd06bcbbdedbbbe56fc1436f78f7b7eb0ae422",
+        "commit_sha": "0ebd06bcbbdedbbbe56fc1436f78f7b7eb0ae422",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/0x3639/go-zenon-spec",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:12.639328+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "a6affd002a8150a4f36fb70b931e343d563db8f2",
+        "content_sha256": "cc7ebb7f8f589c0ad0c709571a6745f9d4ff9b14e768cd0e211b61aff7109fc5",
+        "bytes": 3666
+      }
     },
     {
       "id": "S51",
       "key": "webwallet",
       "title": "nom webwallet",
-      "url": "https://github.com/digitalSloth/nom-webwallet",
+      "url": "https://github.com/digitalSloth/nom-webwallet/blob/f817ebb886736b2cc7e5b38ac4e5b8c48eb357f0/README.md",
       "observed_through": "2026-10-28",
       "scope": "Additional wallet surface; release, custody and integration evidence must be checked separately.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "f817ebb886736b2cc7e5b38ac4e5b8c48eb357f0",
+        "commit_sha": "f817ebb886736b2cc7e5b38ac4e5b8c48eb357f0",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/digitalSloth/nom-webwallet",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:13.400765+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "1707af6cc887d2318a1570bdbd75032e5e230125",
+        "content_sha256": "c08f35a870948f98100ac08e31eda0b4343ae52a0935657ac4bda5b9aad2bac8",
+        "bytes": 5013
+      }
     },
     {
       "id": "S52",
       "key": "syrius",
       "title": "Official Syrius wallet",
-      "url": "https://github.com/zenon-network/syrius",
+      "url": "https://github.com/zenon-network/syrius/blob/08230c48f0cb746b11e5b3e735fb0dd09460921f/README.md",
       "observed_through": "2026-10-28",
       "scope": "Separate wallet implementation and release lineage; do not combine fork evidence.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "08230c48f0cb746b11e5b3e735fb0dd09460921f",
+        "commit_sha": "08230c48f0cb746b11e5b3e735fb0dd09460921f",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/zenon-network/syrius",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:14.026726+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "46cb0e103a492758b63c35db718229c94ed52cf1",
+        "content_sha256": "4c7313dca5b05bce7b2a4a8cfe77a914a47493d539352f28b1437404fe29ff85",
+        "bytes": 2552
+      }
     },
     {
       "id": "S53",
       "key": "wallet_fork",
-      "title": "Syrius community fork",
-      "url": "https://github.com/maznnwell/syrius",
+      "title": "Syrius community fork default snapshot",
+      "url": "https://github.com/maznnwell/syrius/blob/08230c48f0cb746b11e5b3e735fb0dd09460921f/README.md",
       "observed_through": "2026-10-28",
-      "scope": "Community wallet work; branch and release evidence remain specific to this repository.",
+      "scope": "Default-branch README shares the official baseline. Separate open draft contributions are observed at S61; no shipped release is inferred.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "08230c48f0cb746b11e5b3e735fb0dd09460921f",
+        "commit_sha": "08230c48f0cb746b11e5b3e735fb0dd09460921f",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/maznnwell/syrius",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:14.548054+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "46cb0e103a492758b63c35db718229c94ed52cf1",
+        "content_sha256": "4c7313dca5b05bce7b2a4a8cfe77a914a47493d539352f28b1437404fe29ff85",
+        "bytes": 2552
+      }
     },
     {
       "id": "S54",
       "key": "redesign",
-      "title": "Syrius redesign work",
-      "url": "https://github.com/sol-znn/syrius",
+      "title": "Additional Syrius fork default snapshot",
+      "url": "https://github.com/sol-znn/syrius/blob/08230c48f0cb746b11e5b3e735fb0dd09460921f/README.md",
       "observed_through": "2026-10-28",
-      "scope": "Separate redesign work; a specification or branch is not a shipped release.",
+      "scope": "Default-branch README shares the official baseline. The separate desktop redesign draft is observed at S62; default source does not establish its acceptance.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "08230c48f0cb746b11e5b3e735fb0dd09460921f",
+        "commit_sha": "08230c48f0cb746b11e5b3e735fb0dd09460921f",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/sol-znn/syrius",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:14.892530+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "46cb0e103a492758b63c35db718229c94ed52cf1",
+        "content_sha256": "4c7313dca5b05bce7b2a4a8cfe77a914a47493d539352f28b1437404fe29ff85",
+        "bytes": 2552
+      }
     },
     {
       "id": "S55",
       "key": "faucet",
-      "title": "Zenon faucet",
-      "url": "https://github.com/sol-znn/zenon-faucet",
+      "title": "Zenon HTLC token faucet",
+      "url": "https://github.com/sol-znn/zenon-faucet/blob/683629f2991ba4968ca9ac49dc8b6a1e6aee1d13/README.md",
       "observed_through": "2026-10-28",
-      "scope": "Test onboarding application; not a treasury custody model.",
+      "scope": "HTLC-based PlasmaPoints-to-GLYPHS exchange client, not free QSR sponsorship, a treasury custody model or evidence of BTC demand.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "683629f2991ba4968ca9ac49dc8b6a1e6aee1d13",
+        "commit_sha": "683629f2991ba4968ca9ac49dc8b6a1e6aee1d13",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/sol-znn/zenon-faucet",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:15.219826+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "2d236b456d24664e2a495c9da6de63ccf8004d7e",
+        "content_sha256": "073b850e3015985a7158b3b89594573c790d840c0dd579c9c9b6b3264301625d",
+        "bytes": 12672
+      }
     },
     {
       "id": "S56",
       "key": "airdrop",
       "title": "ZTS airdrop tooling",
-      "url": "https://github.com/sol-znn/zts-airdrop",
+      "url": "https://github.com/sol-znn/zts-airdrop/blob/f7dd33d10298bc7a16074f78ed7a201867ec0b9c/README.md",
       "observed_through": "2026-10-28",
       "scope": "Distribution tooling; airdrop activity does not establish paid bitcoin demand.",
       "reference": {
-        "kind": "repository",
-        "value": null,
-        "commit_sha": null,
-        "status": "default_ref_not_pinned_in_citation"
+        "kind": "commit_in_citation",
+        "value": "f7dd33d10298bc7a16074f78ed7a201867ec0b9c",
+        "commit_sha": "f7dd33d10298bc7a16074f78ed7a201867ec0b9c",
+        "status": "reviewed_source_file_pinned"
       },
-      "new_native_or_live_evidence_from_repository_preparation": false
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/sol-znn/zts-airdrop",
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-27T23:57:16.377119+00:00",
+        "repository_public": true,
+        "path": "README.md",
+        "blob_sha": "4c73eebe308c071e269317dd6eb7609606af323c",
+        "content_sha256": "6fda0572c05326b2d3dd8ee83910a2efdd1991be83d66b65d4d7e254bf4e0bff",
+        "bytes": 11334
+      }
+    },
+    {
+      "id": "S57",
+      "key": "bot_executor",
+      "title": "Plasma Bot shared execution lifecycle",
+      "url": "https://github.com/0x3639/plasma.bot/blob/ada5a03a458c17c18083fcc099276248e8f611fe/backend/src/services/fuseExecutor.ts",
+      "observed_through": "2026-10-28",
+      "scope": "Existing lease-aware execution and reservation handling; not acceptance of the proposed paid-order contract.",
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/0x3639/plasma.bot/blob/ada5a03a458c17c18083fcc099276248e8f611fe/backend/src/services/fuseExecutor.ts",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "ada5a03a458c17c18083fcc099276248e8f611fe",
+        "commit_sha": "ada5a03a458c17c18083fcc099276248e8f611fe",
+        "status": "reviewed_source_file_pinned"
+      },
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-28T00:09:55.752906+00:00",
+        "repository_public": true,
+        "path": "backend/src/services/fuseExecutor.ts",
+        "blob_sha": "cf285d80aa0f3c87f5f4e3d380624d5a0c285069",
+        "content_sha256": "f85c9c85e68983f188a84c58ae5182fbe93dc7f1d3e57fae0bb6f4f0c3a76621",
+        "bytes": 4363
+      }
+    },
+    {
+      "id": "S58",
+      "key": "bot_reconcile",
+      "title": "Plasma Bot reconciliation",
+      "url": "https://github.com/0x3639/plasma.bot/blob/ada5a03a458c17c18083fcc099276248e8f611fe/backend/src/cron/reconcile.ts",
+      "observed_through": "2026-10-28",
+      "scope": "Paged reconciliation includes beneficiary-and-amount FIFO matching. A paid receipt instead requires original send hash and owner identity.",
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/0x3639/plasma.bot/blob/ada5a03a458c17c18083fcc099276248e8f611fe/backend/src/cron/reconcile.ts",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "ada5a03a458c17c18083fcc099276248e8f611fe",
+        "commit_sha": "ada5a03a458c17c18083fcc099276248e8f611fe",
+        "status": "reviewed_source_file_pinned"
+      },
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-28T00:09:55.752906+00:00",
+        "repository_public": true,
+        "path": "backend/src/cron/reconcile.ts",
+        "blob_sha": "ccd0370caf47fb31e926a5e80dd221edd6357186",
+        "content_sha256": "9c710eabf7a9f358f32f3f9e58b03fe7a4d4bf9ba65c0f2dda8b7ec731b99525",
+        "bytes": 8710
+      }
+    },
+    {
+      "id": "S59",
+      "key": "bot_recycle",
+      "title": "Plasma Bot recycling policy",
+      "url": "https://github.com/0x3639/plasma.bot/blob/ada5a03a458c17c18083fcc099276248e8f611fe/backend/src/services/unfuse.ts",
+      "observed_through": "2026-10-28",
+      "scope": "Existing revocable-entry recycling. Paid inventory protection and observed returned funds need separate qualification.",
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/0x3639/plasma.bot/blob/ada5a03a458c17c18083fcc099276248e8f611fe/backend/src/services/unfuse.ts",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "ada5a03a458c17c18083fcc099276248e8f611fe",
+        "commit_sha": "ada5a03a458c17c18083fcc099276248e8f611fe",
+        "status": "reviewed_source_file_pinned"
+      },
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-28T00:09:55.752906+00:00",
+        "repository_public": true,
+        "path": "backend/src/services/unfuse.ts",
+        "blob_sha": "ec034a660bfba296198981b72026421b0e942b6b",
+        "content_sha256": "57e5db421f21a38849db39b37f84fd0c4e78821f7816d8f578e14b9c466d782c",
+        "bytes": 6347
+      }
+    },
+    {
+      "id": "S60",
+      "key": "bot_queue",
+      "title": "Plasma Bot send queue",
+      "url": "https://github.com/0x3639/plasma.bot/blob/ada5a03a458c17c18083fcc099276248e8f611fe/backend/src/services/sendQueue.ts",
+      "observed_through": "2026-10-28",
+      "scope": "Bounded in-process serialization with timeouts; not a durable distributed lease or evidence that a timed-out asynchronous send was canceled.",
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "original_url": "https://github.com/0x3639/plasma.bot/blob/ada5a03a458c17c18083fcc099276248e8f611fe/backend/src/services/sendQueue.ts",
+      "reference": {
+        "kind": "commit_in_citation",
+        "value": "ada5a03a458c17c18083fcc099276248e8f611fe",
+        "commit_sha": "ada5a03a458c17c18083fcc099276248e8f611fe",
+        "status": "reviewed_source_file_pinned"
+      },
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_SOURCE",
+        "checked_at_utc": "2026-10-28T00:09:55.752906+00:00",
+        "repository_public": true,
+        "path": "backend/src/services/sendQueue.ts",
+        "blob_sha": "7937e569ab2ef7efdf9cb45d191da02e289a19b6",
+        "content_sha256": "bef129ea5a28ff5ad1636ab6ad53a825de22e2e727818693c8b802ea551e2724",
+        "bytes": 4029
+      }
+    },
+    {
+      "id": "S61",
+      "key": "s61",
+      "title": "Syrius community fork draft contributions",
+      "url": "https://github.com/maznnwell/syrius/pull/15",
+      "observed_through": "2026-10-28",
+      "scope": "Open draft checksum and toolchain documentation PR. Related open drafts cover native packaging, validation and WalletConnect initialization; reported CI is not independently requalified here.",
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "reference": {
+        "kind": "pull_request_observation",
+        "commit_sha": null,
+        "status": "dated_metadata_not_runtime_proof"
+      },
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_PR",
+        "checked_at_utc": "2026-10-28T00:09:55.752906+00:00",
+        "repository_public": true,
+        "metadata": {
+          "number": 15,
+          "state": "open",
+          "draft": true,
+          "merged": false
+        },
+        "observed_body_sha256": "b3705db779c422e28eb4d9f2a210ee50de13467eb49c015b9d530b5cbfd8663d",
+        "related_public_prs": [
+          {
+            "number": 18,
+            "url": "https://github.com/maznnwell/syrius/pull/18",
+            "title": "Fix desktop WalletConnect signing initialization",
+            "state": "open",
+            "draft": true
+          },
+          {
+            "number": 17,
+            "url": "https://github.com/maznnwell/syrius/pull/17",
+            "title": "Enable fast validation for rearchitecture contributions",
+            "state": "open",
+            "draft": true
+          },
+          {
+            "number": 16,
+            "url": "https://github.com/maznnwell/syrius/pull/16",
+            "title": "Fix Linux native asset installation and plugin library paths",
+            "state": "open",
+            "draft": true
+          },
+          {
+            "number": 15,
+            "url": "https://github.com/maznnwell/syrius/pull/15",
+            "title": "Fix release checksum manifests and update build toolchain documentation",
+            "state": "open",
+            "draft": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "S62",
+      "key": "s62",
+      "title": "Syrius desktop redesign draft",
+      "url": "https://github.com/sol-znn/syrius/pull/6",
+      "observed_through": "2026-10-28",
+      "scope": "Open draft implementation and source/qualification report. Native wallet/node behavior, visual parity and live effects remain separate acceptance gates.",
+      "new_native_or_live_evidence_from_repository_preparation": false,
+      "reference": {
+        "kind": "pull_request_observation",
+        "commit_sha": null,
+        "status": "dated_metadata_not_runtime_proof"
+      },
+      "public_check": {
+        "status": "VERIFIED_PUBLIC_PR",
+        "checked_at_utc": "2026-10-28T00:09:55.752906+00:00",
+        "repository_public": true,
+        "metadata": {
+          "number": 6,
+          "state": "open",
+          "draft": true,
+          "merged": false
+        },
+        "observed_body_sha256": "69b0f4f313ad14ffb98136670818263f417809338dca2363d0981aed9d9036c4"
+      }
     }
-  ]
+  ],
+  "draft_revision": "0.3",
+  "source_review_date": "2026-10-28",
+  "source_review_summary": {
+    "VERIFIED_PUBLIC_SOURCE": 47,
+    "VERIFIED_PUBLIC_HTTP": 5,
+    "VERIFIED_PUBLIC_RELEASE": 2,
+    "VERIFIED_PUBLIC_PR": 8
+  }
 }
